@@ -1,0 +1,1094 @@
+{
+	"info": {
+		"_postman_id": "ac36a941-bf65-4828-900b-cd82bc6a680b",
+		"name": "Local",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Company",
+			"item": [
+				{
+					"name": "Company Details",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "user",
+								"value": " qnKXQeac6bjiEamZwOS6",
+								"type": "text"
+							},
+							{
+								"key": "user-agent",
+								"value": " Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-origin",
+								"value": " rum",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-parent-id",
+								"value": " 8046740215943821595",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-sampled",
+								"value": " 1",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-sampling-priority",
+								"value": " 1",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-trace-id",
+								"value": " 2449146254167086914",
+								"type": "text"
+							},
+							{
+								"key": "x-sourceid",
+								"value": " GrowUI",
+								"type": "text"
+							},
+							{
+								"key": "x-ziaccesstoken",
+								"value": " eyJraWQiOiIwTFFMVmNZOFlzZFhtNExpX0pVWVFfUUNfX0Q1Sl9lajB6RXJBcmg2Rkk0IiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULlVtemlCX3F3b3BPOVVZZnE2WWRzem90RUhKanZuRDhzaFZ3c3ZpdHlIY2MiLCJpc3MiOiJodHRwczovL3pvb21pbmZvLWNpYW0tc3RhZ2luZy5va3RhcHJldmlldy5jb20vb2F1dGgyL2RlZmF1bHQiLCJhdWQiOiJhcGk6Ly9kZWZhdWx0IiwiaWF0IjoxNjQzNjIxNzI4LCJleHAiOjE2NDM2NzU3MjgsImNpZCI6IjBvYTEzaWxxOGxNZVlTQ0VpMWQ3IiwidWlkIjoiMDB1MWRvNTE3NjZJOGt2OUgxZDciLCJzY3AiOlsib3BlbmlkIl0sInppVXNlcm5hbWUiOiJyYW4uc3Bla3RvckB6b29taW5mby5jb20iLCJzdWIiOiJyYW4uc3Bla3RvckB6b29taW5mby5jb20iLCJmaXJzdE5hbWUiOiJyYW4iLCJsYXN0TmFtZSI6InNwZWt0b3IiLCJ6aVNlc3Npb25UeXBlIjo3MCwiemlHcm91cElkIjowLCJ6aVVzZXJJZCI6MjAwMjI1NTYsInppVGVuYW50SWQiOjEwMDAwMDAwLCJ6aU1vbmdvVXNlcklkIjoicW5LWFFlYWM2YmppRWFtWndPUzYiLCJ6aVBsYXRmb3JtcyI6WyJSRUNSVUlURVIiLCJET1pJIiwiWkkgQ0hBVCJdfQ.u1lK4m0DxXSoN1F_uzkJlGM_4zwOB_H3TgYiBCeVgOqiDN5RQrxb_LtV7Dfp-Hw4hlG-0krnw0yKZzl0QFXCLmxhMMao9DFin6jroc_ln5mdj4EvjyuaCpvpkCoGKzDLSfHV5cVm5miO6AB0Z4OngATChrV-jvJIHv5hXL49DKOiEfg4S9ryLDyuvbGkv_YV7wiT7QyxZSxn6yl7Mp4BSZvkLI0qz6Ga-CJDzyjTKhHQ0Vd3thvgMT5ga4eGCgP__BmGTVonLU8h5WKX3H0oZnaUfy2F7Mg8IwfW0upPZMbqTOERgijH9Y-f484GQH6R93OxAhWjXlCQzpGp2rDapQ",
+								"type": "text"
+							},
+							{
+								"key": "x-ziid",
+								"value": " sALhfY6m38OET_pIy1Vi0gy9cFdsZImslyXphdlWdqhW4dSDPxFHAb3capjbH51XBPQVCwOoPiujIeGvUvAGNA",
+								"type": "text"
+							},
+							{
+								"key": "x-zisession",
+								"value": " BJuL54MaSwuWyVmk5fut3keA40PpnqZIUu0ldVYlQgYdqcfU04Sgcb3capjbH51XBPQVCwOoPitntb6Rmo6uNkwpx18a8Oe4gelxg_8YZGdxKzvAVB1bliU3KqFVSJQJbaTzJFFpGU9b3IqKSWlKVojM42zNZiHYVSClwXzJhtCd7cr0Y4cNHlD51jsiM-rLg-qI6Yc8jjLw1VkDH6OGO1XRXSK386u98Uremzs0Pz6rvXisyJmaebC3hZTD0e86ekI6gDwpo6PhWORgD6Zdo0IITdzY5Q1wbIsrFDV1wrn1D5vE66UzMAv74EqHOlX9zYssllYkQmgiLBHYWkiM5rxa3NtgEXlCYxJdHJ9HP9TkdR4jvHpTBB64QRIWyR7F5q1qVuJJrD1SyIOU-HRHJd_Gurf8qbCV39DTOHgBsq6VrnSNBmdBqwtPblYLke-Mq9AtxL7BwYWt6o_shNv4tPQGsFEK7VQG9YE-cnsPfornYvCdlSDawirXiAD5H-Rrk_BkjGl80NX4ItbDeG9mVX-xsjatph_0bpnucE2UyqM77dyzF3F6CQNrwC-l4CO_Cw-wY4iR8UHPCTL0GHEsOu88es5B9un65THhlvbDllZkik61Ng2CX9s0WYv6wK-XkQdn9MpfLxIrLviKdcpcYchCbRdn2OI0dgYAEKRTcm3Gz24An009kHuGQmOHjhEQJt2TvtiWtDi4_dlg-Mcd-DBo-0Wx617PkEGX2A1uVDKBDGFRAIyQy5SZ4GcaTrkEhe4pTgE_edNABARcI5mZa02l_k8Mm56C7QhKVIIpFTTB_hr0999U1bl66XmVi7lJuknqARoMBlpLFisWqgk3O9PB1V_N6w9xOfdIeqvcNe3ca7KL87ZeKXNj3pdMgnws2up9CYcob7HSSpSYdmYAmzhZndKAk5YryOxI_D81QUbgmiOiI6wzLncaDa6BMVP0rlRUMK89QEHZijoHvke143aLNtw1JFVKnj5d-O90GZvRq1QR8Heze9ioQqNAizHEeJr5KQJXFZLJF1L7Lbma7tO91yuj20EIT3fuR0Fb4LivOLOLn2H8uAbpVHiTA9CqPPa49KSkf-HGIN0sWrwbb7l8JWAQFKquH5jF8OPzCmbHoiB4gYuvZcXm2COS3SPycc9D4tU10SweCZJNFmfi6DjSnGj_7ONw2epVJWzZgOsf5rZWDq3JyIAVuERDIzpBwq3CWq-0j-GxXffZ_LW_ZmrQbqI9fhmIx9c8_tooaOQCxXAMvCUKMOOZvrPPX3UQlW8Y9unn4vR0jPKjJTyMtDlVsR1tPuSRq5z0laQD7dlI7ZvAfv70sKHGSWw2N_0e-SJvYtw1brQegZ-Mq75qnCjylNAkkCWoWfFNvoZmTPUeRZjpd_KmH_fuea7i8dWkC-_Hek-3ps3S-koZ41QWNyH_DX7zEXTHu0DkqL4QZaUEeBVWlm9JldsQ3t_bIKTiv_NpnGkNf3-NzPAVIf7Uqz-4pquXsX9ELXX0UoF6Lboaur32XXvcVKvZAYghBzDlnTrVBER-IbRAw0DANkYCeliZK9gFsgOc5MovyA5scG51PUodU7ZpycSJBgNmEeeK0ZTLC7rXtBQ6GCrDLVSkRLC4MrEDpkAQanAr5JVKJDuhMQ_PF482rvaYGhTGAh4myOxI_D81QUYkfnvvM5UfidKhlxvlUKYHLSxPDEKJYM0wI6_pcqM-zS_sROxJKoBAVtzyniYaP4pCECi_i1Q5zmUNi85psx9e",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "query companyDetails ($companyID: String!, $parsingOptions: ParsingOptions){\n      base: companyDetails(companyID: $companyID, parsingOptions: $parsingOptions){\n        id,\n        name,\n        tagged,\n        masked,\n        subscribed,\n        exported,\n        description,\n        domain,\n        logo,\n        fax,\n        phone,\n        ticker,\n        crmEntityId,\n        address {\n          Street,\n          City,\n          State,\n          Zip,\n          street,\n          city,\n          state,\n          zip,\n          country,\n          latitude,\n          longitude,\n          CountryCode\n        },\n        displayAddress,\n        employeeCount,\n        revenue,\n        doziIndustry {\n          displayName,\n          name,\n          isPrimary,\n          score\n        },\n        doziIndustryString,\n        revenueRange,\n        industry(companyID: $companyID, parsingOptions: $parsingOptions),\n        industries: basicIndustries,\n        allIndustries,\n        isDefunct,\n        uniqueCompanyNumContacts,\n        companyHref,\n        isInPreview,\n        funding {\n          amountIn000s,\n          date,\n          type,\n          investors {\n            companyName\n          }\n        }\n        departmentBudgets {\n          departmentType,\n          budgetAmount\n        }\n        certified,\n        certificationDate,\n        icpScore,\n        locationsCount,\n        ultimateParent: basicUltimateParent,\n        orgImport\n      },\n      lite: companyDetails(companyID: $companyID, parsingOptions: $parsingOptions){\n        entityId,\n        address{\n          street,\n          city,\n          zip,\n          state,\n          country\n        },\n        displayAddress,\n        description,\n        NAICS,\n        SIC,\n        ranking,\n        ticker,\n        employeeCount,\n        employeeCountRange,\n        revenue,\n        revenueRange,\n        companyAttributes{\n          areaOfStudy,\n          degree,\n          displayName,\n          attributeCol {\n            count,\n            description,\n            displayName,\n            value,\n            isPrimary,\n            chipHref,\n            lastSeen,\n            domain\n          },\n          isOpen,\n          isPrimary,\n          order\n        },\n        techAttributes{\n          areaOfStudy,\n          degree,\n          displayName,\n          attributeCol {\n            count,\n            description,\n            displayName,\n            value,\n            isPrimary,\n            chipHref,\n            lastSeen,\n            domain\n          },\n          isOpen,\n          isPrimary,\n          order\n        },\n        industry(companyID: $companyID),\n        topIndustry,\n        industries{\n          displayName,\n          value,\n          isPrimary,\n          chipHref,\n          lastSeen,\n          domain\n        }\n        merger {\n          companyId,\n          companyName,\n          zoomUrl\n        },\n        alternateNames,\n        orgChartFacetData {\n          ManagementLevels {\n            count\n          }\n        },\n        importedData {\n          date,\n          owners {\n            key,\n            value {\n              date,\n              crmEntityId,\n              ownerId,\n              ownerName\n            }\n          }\n        },\n        socialUrls {\n          socialMedia {\n            followerCount,\n            socialNetworkType,\n            socialNetworkUrl\n          }\n        },\n        socialUrlsParsed {\n          linkedin,\n          facebook,\n          twitter,\n          youtube\n        },\n        followerCountParsed {\n          linkedin,\n          facebook,\n          twitter,\n          youtube\n        }\n        foundedYear,\n        alexaRank,\n        departmentBudgets {\n          departmentType,\n          budgetAmount\n        },\n        companyEmployeeGrowth {\n          oneYearEmployeeGrowthRate,\n          twoYearEmployeeGrowthRate,\n          employeeGrowthData {\n            label,\n            employeeCount\n          }\n        },\n        ultimateParent {\n          id,\n          name\n        },\n        products {\n          value,\n          displayName\n        },\n        technologyAddDrop {\n          technologyId,\n          activity,\n          date,\n          logo,\n          name\n        },\n        competitors {\n          companyId,\n          companyName,\n          domain,\n          revenue,\n          employeeCount\n        }\n      }\n    }",
+								"variables": "{\n    \"companyID\": \"344589814\",\n    \"parsingOptions\": {\"industry\": \"basic\"}\n}"
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/profiles/graphql",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"profiles",
+								"graphql"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Person",
+			"item": [
+				{
+					"name": "Person Details",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "user",
+								"value": " qnKXQeac6bjiEamZwOS6",
+								"type": "text"
+							},
+							{
+								"key": "user-agent",
+								"value": " Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-origin",
+								"value": " rum",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-parent-id",
+								"value": " 8046740215943821595",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-sampled",
+								"value": " 1",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-sampling-priority",
+								"value": " 1",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-trace-id",
+								"value": " 2449146254167086914",
+								"type": "text"
+							},
+							{
+								"key": "x-sourceid",
+								"value": " GrowUI",
+								"type": "text"
+							},
+							{
+								"key": "x-ziaccesstoken",
+								"value": " eyJraWQiOiIwTFFMVmNZOFlzZFhtNExpX0pVWVFfUUNfX0Q1Sl9lajB6RXJBcmg2Rkk0IiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULlVtemlCX3F3b3BPOVVZZnE2WWRzem90RUhKanZuRDhzaFZ3c3ZpdHlIY2MiLCJpc3MiOiJodHRwczovL3pvb21pbmZvLWNpYW0tc3RhZ2luZy5va3RhcHJldmlldy5jb20vb2F1dGgyL2RlZmF1bHQiLCJhdWQiOiJhcGk6Ly9kZWZhdWx0IiwiaWF0IjoxNjQzNjIxNzI4LCJleHAiOjE2NDM2NzU3MjgsImNpZCI6IjBvYTEzaWxxOGxNZVlTQ0VpMWQ3IiwidWlkIjoiMDB1MWRvNTE3NjZJOGt2OUgxZDciLCJzY3AiOlsib3BlbmlkIl0sInppVXNlcm5hbWUiOiJyYW4uc3Bla3RvckB6b29taW5mby5jb20iLCJzdWIiOiJyYW4uc3Bla3RvckB6b29taW5mby5jb20iLCJmaXJzdE5hbWUiOiJyYW4iLCJsYXN0TmFtZSI6InNwZWt0b3IiLCJ6aVNlc3Npb25UeXBlIjo3MCwiemlHcm91cElkIjowLCJ6aVVzZXJJZCI6MjAwMjI1NTYsInppVGVuYW50SWQiOjEwMDAwMDAwLCJ6aU1vbmdvVXNlcklkIjoicW5LWFFlYWM2YmppRWFtWndPUzYiLCJ6aVBsYXRmb3JtcyI6WyJSRUNSVUlURVIiLCJET1pJIiwiWkkgQ0hBVCJdfQ.u1lK4m0DxXSoN1F_uzkJlGM_4zwOB_H3TgYiBCeVgOqiDN5RQrxb_LtV7Dfp-Hw4hlG-0krnw0yKZzl0QFXCLmxhMMao9DFin6jroc_ln5mdj4EvjyuaCpvpkCoGKzDLSfHV5cVm5miO6AB0Z4OngATChrV-jvJIHv5hXL49DKOiEfg4S9ryLDyuvbGkv_YV7wiT7QyxZSxn6yl7Mp4BSZvkLI0qz6Ga-CJDzyjTKhHQ0Vd3thvgMT5ga4eGCgP__BmGTVonLU8h5WKX3H0oZnaUfy2F7Mg8IwfW0upPZMbqTOERgijH9Y-f484GQH6R93OxAhWjXlCQzpGp2rDapQ",
+								"type": "text"
+							},
+							{
+								"key": "x-ziid",
+								"value": " sALhfY6m38OET_pIy1Vi0gy9cFdsZImslyXphdlWdqhW4dSDPxFHAb3capjbH51XBPQVCwOoPiujIeGvUvAGNA",
+								"type": "text"
+							},
+							{
+								"key": "x-zisession",
+								"value": " BJuL54MaSwuWyVmk5fut3keA40PpnqZIUu0ldVYlQgYdqcfU04Sgcb3capjbH51XBPQVCwOoPitntb6Rmo6uNkwpx18a8Oe4gelxg_8YZGdxKzvAVB1bliU3KqFVSJQJbaTzJFFpGU9b3IqKSWlKVojM42zNZiHYVSClwXzJhtCd7cr0Y4cNHlD51jsiM-rLg-qI6Yc8jjLw1VkDH6OGO1XRXSK386u98Uremzs0Pz6rvXisyJmaebC3hZTD0e86ekI6gDwpo6PhWORgD6Zdo0IITdzY5Q1wbIsrFDV1wrn1D5vE66UzMAv74EqHOlX9zYssllYkQmgiLBHYWkiM5rxa3NtgEXlCYxJdHJ9HP9TkdR4jvHpTBB64QRIWyR7F5q1qVuJJrD1SyIOU-HRHJd_Gurf8qbCV39DTOHgBsq6VrnSNBmdBqwtPblYLke-Mq9AtxL7BwYWt6o_shNv4tPQGsFEK7VQG9YE-cnsPfornYvCdlSDawirXiAD5H-Rrk_BkjGl80NX4ItbDeG9mVX-xsjatph_0bpnucE2UyqM77dyzF3F6CQNrwC-l4CO_Cw-wY4iR8UHPCTL0GHEsOu88es5B9un65THhlvbDllZkik61Ng2CX9s0WYv6wK-XkQdn9MpfLxIrLviKdcpcYchCbRdn2OI0dgYAEKRTcm3Gz24An009kHuGQmOHjhEQJt2TvtiWtDi4_dlg-Mcd-DBo-0Wx617PkEGX2A1uVDKBDGFRAIyQy5SZ4GcaTrkEhe4pTgE_edNABARcI5mZa02l_k8Mm56C7QhKVIIpFTTB_hr0999U1bl66XmVi7lJuknqARoMBlpLFisWqgk3O9PB1V_N6w9xOfdIeqvcNe3ca7KL87ZeKXNj3pdMgnws2up9CYcob7HSSpSYdmYAmzhZndKAk5YryOxI_D81QUbgmiOiI6wzLncaDa6BMVP0rlRUMK89QEHZijoHvke143aLNtw1JFVKnj5d-O90GZvRq1QR8Heze9ioQqNAizHEeJr5KQJXFZLJF1L7Lbma7tO91yuj20EIT3fuR0Fb4LivOLOLn2H8uAbpVHiTA9CqPPa49KSkf-HGIN0sWrwbb7l8JWAQFKquH5jF8OPzCmbHoiB4gYuvZcXm2COS3SPycc9D4tU10SweCZJNFmfi6DjSnGj_7ONw2epVJWzZgOsf5rZWDq3JyIAVuERDIzpBwq3CWq-0j-GxXffZ_LW_ZmrQbqI9fhmIx9c8_tooaOQCxXAMvCUKMOOZvrPPX3UQlW8Y9unn4vR0jPKjJTyMtDlVsR1tPuSRq5z0laQD7dlI7ZvAfv70sKHGSWw2N_0e-SJvYtw1brQegZ-Mq75qnCjylNAkkCWoWfFNvoZmTPUeRZjpd_KmH_fuea7i8dWkC-_Hek-3ps3S-koZ41QWNyH_DX7zEXTHu0DkqL4QZaUEeBVWlm9JldsQ3t_bIKTiv_NpnGkNf3-NzPAVIf7Uqz-4pquXsX9ELXX0UoF6Lboaur32XXvcVKvZAYghBzDlnTrVBER-IbRAw0DANkYCeliZK9gFsgOc5MovyA5scG51PUodU7ZpycSJBgNmEeeK0ZTLC7rXtBQ6GCrDLVSkRLC4MrEDpkAQanAr5JVKJDuhMQ_PF482rvaYGhTGAh4myOxI_D81QUYkfnvvM5UfidKhlxvlUKYHLSxPDEKJYM0wI6_pcqM-zS_sROxJKoBAVtzyniYaP4pCECi_i1Q5zmUNi85psx9e",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "    query personDetails ($personID: String!){\n      personDetails(personID: $personID) {\n        entityId,\n        industry,\n        topLevelIndustry,\n        title,\n        jobFunction,\n        employmentHistory {\n          companyName,\n          from,\n          to,\n          jobFunction,\n          title,\n          level,\n          companyID,\n          companyWebsite\n        }\n        education {\n          school,\n          degree {\n            areaOfStudy,\n            degree\n          }\n        }\n        webReference {\n          description,\n          title,\n          url,\n          date\n        },\n        boardMember {\n          from,\n          to,\n          jobFunction,\n          title,\n          level,\n          company {\n            id,\n            name,\n            tagged,\n            masked,\n            subscribed,\n            exported,\n            description,\n            domain,\n            logo,\n            fax,\n            phone,\n            ticker,\n            crmEntityId,\n            address {\n              Street,\n              City,\n              State,\n              Zip,\n              street,\n              city,\n              state,\n              zip,\n              country,\n              latitude,\n              longitude,\n              CountryCode\n            },\n            displayAddress,\n            employeeCount,\n            revenue,\n            doziIndustry {\n              displayName,\n              name,\n              isPrimary,\n              score\n            },\n            doziIndustryString,\n            revenueRange,\n            isDefunct,\n            uniqueCompanyNumContacts,\n            companyHref,\n            isInPreview,\n            funding {\n              amountIn000s,\n              date,\n              type,\n              investors {\n                companyName\n              }\n            }\n            departmentBudgets {\n              departmentType,\n              budgetAmount\n            }\n            certified,\n            certificationDate,\n            icpScore,\n            locationsCount,\n            ultimateParent: basicUltimateParent,\n            orgImport\n          },\n        }\n        personBiography,\n        socialUrls {\n          socialMedia {\n            followerCount,\n            socialNetworkType,\n            socialNetworkUrl\n          }\n        },\n        socialUrlsParsed {\n          linkedin,\n          facebook,\n          twitter,\n          youtube\n        },\n        followerCountParsed {\n          linkedin,\n          facebook,\n          twitter,\n          youtube\n        }\n        foundedYear,\n        alexaRank,\n        directPhoneIsDoNotCall,\n        mobilePhoneIsDoNotCall,\n        company {\n          id,\n        },\n        importedData {\n          date,\n          owners {\n            key,\n            value {\n              date,\n              crmEntityId,\n              ownerId,\n              ownerName\n            }\n          }\n        }\n      }\n    }",
+								"variables": "{\n   \"personID\": \"1260398587\"\n}"
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/profiles/graphql",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"profiles",
+								"graphql"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Person Search",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "user",
+								"value": " qnKXQeac6bjiEamZwOS6",
+								"type": "text"
+							},
+							{
+								"key": "user-agent",
+								"value": " Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-origin",
+								"value": " rum",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-parent-id",
+								"value": " 8046740215943821595",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-sampled",
+								"value": " 1",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-sampling-priority",
+								"value": " 1",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-trace-id",
+								"value": " 2449146254167086914",
+								"type": "text"
+							},
+							{
+								"key": "x-sourceid",
+								"value": " GrowUI",
+								"type": "text"
+							},
+							{
+								"key": "x-ziaccesstoken",
+								"value": " eyJraWQiOiIwTFFMVmNZOFlzZFhtNExpX0pVWVFfUUNfX0Q1Sl9lajB6RXJBcmg2Rkk0IiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULlVtemlCX3F3b3BPOVVZZnE2WWRzem90RUhKanZuRDhzaFZ3c3ZpdHlIY2MiLCJpc3MiOiJodHRwczovL3pvb21pbmZvLWNpYW0tc3RhZ2luZy5va3RhcHJldmlldy5jb20vb2F1dGgyL2RlZmF1bHQiLCJhdWQiOiJhcGk6Ly9kZWZhdWx0IiwiaWF0IjoxNjQzNjIxNzI4LCJleHAiOjE2NDM2NzU3MjgsImNpZCI6IjBvYTEzaWxxOGxNZVlTQ0VpMWQ3IiwidWlkIjoiMDB1MWRvNTE3NjZJOGt2OUgxZDciLCJzY3AiOlsib3BlbmlkIl0sInppVXNlcm5hbWUiOiJyYW4uc3Bla3RvckB6b29taW5mby5jb20iLCJzdWIiOiJyYW4uc3Bla3RvckB6b29taW5mby5jb20iLCJmaXJzdE5hbWUiOiJyYW4iLCJsYXN0TmFtZSI6InNwZWt0b3IiLCJ6aVNlc3Npb25UeXBlIjo3MCwiemlHcm91cElkIjowLCJ6aVVzZXJJZCI6MjAwMjI1NTYsInppVGVuYW50SWQiOjEwMDAwMDAwLCJ6aU1vbmdvVXNlcklkIjoicW5LWFFlYWM2YmppRWFtWndPUzYiLCJ6aVBsYXRmb3JtcyI6WyJSRUNSVUlURVIiLCJET1pJIiwiWkkgQ0hBVCJdfQ.u1lK4m0DxXSoN1F_uzkJlGM_4zwOB_H3TgYiBCeVgOqiDN5RQrxb_LtV7Dfp-Hw4hlG-0krnw0yKZzl0QFXCLmxhMMao9DFin6jroc_ln5mdj4EvjyuaCpvpkCoGKzDLSfHV5cVm5miO6AB0Z4OngATChrV-jvJIHv5hXL49DKOiEfg4S9ryLDyuvbGkv_YV7wiT7QyxZSxn6yl7Mp4BSZvkLI0qz6Ga-CJDzyjTKhHQ0Vd3thvgMT5ga4eGCgP__BmGTVonLU8h5WKX3H0oZnaUfy2F7Mg8IwfW0upPZMbqTOERgijH9Y-f484GQH6R93OxAhWjXlCQzpGp2rDapQ",
+								"type": "text"
+							},
+							{
+								"key": "x-ziid",
+								"value": " sALhfY6m38OET_pIy1Vi0gy9cFdsZImslyXphdlWdqhW4dSDPxFHAb3capjbH51XBPQVCwOoPiujIeGvUvAGNA",
+								"type": "text"
+							},
+							{
+								"key": "x-zisession",
+								"value": " BJuL54MaSwuWyVmk5fut3keA40PpnqZIUu0ldVYlQgYdqcfU04Sgcb3capjbH51XBPQVCwOoPitntb6Rmo6uNkwpx18a8Oe4gelxg_8YZGdxKzvAVB1bliU3KqFVSJQJbaTzJFFpGU9b3IqKSWlKVojM42zNZiHYVSClwXzJhtCd7cr0Y4cNHlD51jsiM-rLg-qI6Yc8jjLw1VkDH6OGO1XRXSK386u98Uremzs0Pz6rvXisyJmaebC3hZTD0e86ekI6gDwpo6PhWORgD6Zdo0IITdzY5Q1wbIsrFDV1wrn1D5vE66UzMAv74EqHOlX9zYssllYkQmgiLBHYWkiM5rxa3NtgEXlCYxJdHJ9HP9TkdR4jvHpTBB64QRIWyR7F5q1qVuJJrD1SyIOU-HRHJd_Gurf8qbCV39DTOHgBsq6VrnSNBmdBqwtPblYLke-Mq9AtxL7BwYWt6o_shNv4tPQGsFEK7VQG9YE-cnsPfornYvCdlSDawirXiAD5H-Rrk_BkjGl80NX4ItbDeG9mVX-xsjatph_0bpnucE2UyqM77dyzF3F6CQNrwC-l4CO_Cw-wY4iR8UHPCTL0GHEsOu88es5B9un65THhlvbDllZkik61Ng2CX9s0WYv6wK-XkQdn9MpfLxIrLviKdcpcYchCbRdn2OI0dgYAEKRTcm3Gz24An009kHuGQmOHjhEQJt2TvtiWtDi4_dlg-Mcd-DBo-0Wx617PkEGX2A1uVDKBDGFRAIyQy5SZ4GcaTrkEhe4pTgE_edNABARcI5mZa02l_k8Mm56C7QhKVIIpFTTB_hr0999U1bl66XmVi7lJuknqARoMBlpLFisWqgk3O9PB1V_N6w9xOfdIeqvcNe3ca7KL87ZeKXNj3pdMgnws2up9CYcob7HSSpSYdmYAmzhZndKAk5YryOxI_D81QUbgmiOiI6wzLncaDa6BMVP0rlRUMK89QEHZijoHvke143aLNtw1JFVKnj5d-O90GZvRq1QR8Heze9ioQqNAizHEeJr5KQJXFZLJF1L7Lbma7tO91yuj20EIT3fuR0Fb4LivOLOLn2H8uAbpVHiTA9CqPPa49KSkf-HGIN0sWrwbb7l8JWAQFKquH5jF8OPzCmbHoiB4gYuvZcXm2COS3SPycc9D4tU10SweCZJNFmfi6DjSnGj_7ONw2epVJWzZgOsf5rZWDq3JyIAVuERDIzpBwq3CWq-0j-GxXffZ_LW_ZmrQbqI9fhmIx9c8_tooaOQCxXAMvCUKMOOZvrPPX3UQlW8Y9unn4vR0jPKjJTyMtDlVsR1tPuSRq5z0laQD7dlI7ZvAfv70sKHGSWw2N_0e-SJvYtw1brQegZ-Mq75qnCjylNAkkCWoWfFNvoZmTPUeRZjpd_KmH_fuea7i8dWkC-_Hek-3ps3S-koZ41QWNyH_DX7zEXTHu0DkqL4QZaUEeBVWlm9JldsQ3t_bIKTiv_NpnGkNf3-NzPAVIf7Uqz-4pquXsX9ELXX0UoF6Lboaur32XXvcVKvZAYghBzDlnTrVBER-IbRAw0DANkYCeliZK9gFsgOc5MovyA5scG51PUodU7ZpycSJBgNmEeeK0ZTLC7rXtBQ6GCrDLVSkRLC4MrEDpkAQanAr5JVKJDuhMQ_PF482rvaYGhTGAh4myOxI_D81QUYkfnvvM5UfidKhlxvlUKYHLSxPDEKJYM0wI6_pcqM-zS_sROxJKoBAVtzyniYaP4pCECi_i1Q5zmUNi85psx9e",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "query personSearch\n    ($searchFacadeParams: PersonArgs){\n      personSearch(searchFacadeParams: $searchFacadeParams)\n      {\n        totalResults,\n        maxResults,\n        companiesCount,\n        numUniqueCompanies,\n        predictedData {\n          guessedEmail,\n          companyId,\n          companyName,\n        },\n        data {\n          personID,\n          profileImageURL,\n          firstName,\n          lastName,\n          phone,\n          email,\n          mobilePhone,\n          personalEmail,\n          location {\n            Street,\n            City,\n            State,\n            Zip,\n            street,\n            city,\n            state,\n            zip,\n            country,\n            latitude,\n            longitude\n          }\n          topLevelIndustry,\n          industry,\n          lastMentioned,\n          lastUpdatedDate,\n          confidenceScore,\n          isPast,\n          score,\n          name,\n          managementLevel,\n          jobFunction,\n          title,\n          companyID,\n          companyLogo,\n          companyName,\n          companyAddress {\n            Street,\n            City,\n            State,\n            Zip,\n            street,\n            city,\n            state,\n            zip,\n            country,\n            latitude,\n            longitude\n          }\n          companyRevenue,\n          companyRevenueRange,\n          companyEmployees,\n          companyEmployeeCountRange,\n          companyDomain,\n          companyPhone,\n          companyDescription,\n          companyFax,\n          companyRevenueIn000s,\n          companySIC,\n          companyNAICS,\n          companyTicker,\n          isMasked,\n          isTagged,\n          noticeProvidedInfo {\n            hasBeenNotified,\n            emailNoticeProvidedDate\n          },\n          privacyRegulationFlags {\n            privacyRegulationFlag\n          },\n          doziIndustry {\n            displayName,\n            name,\n            isPrimary,\n            score\n          }\n        }\n      }\n    }",
+								"variables": "{\n   \"searchFacadeParams\": {\n        \"companyPastOrPresent\": \"1\",\n        \"companyType\": \"Public\",\n        \"confidenceScoreMax\": 99,\n        \"confidenceScoreMin\": 85,\n        \"contactRequirements\": \"\",\n        \"doziIndustry\": \"software\",\n        \"excludeBoardMembers\": true,\n        \"excludeDefunctCompanies\": true,\n        \"excludeNoCompany\": \"true\",\n        \"hashtagField\": \"#b2b\",\n        \"isCertified\": \"include\",\n        \"page\": 1,\n        \"returnOnlyBoardMembers\": false,\n        \"rpp\": 25,\n        \"scoringOptions\": \"{\\\"id\\\":\\\"XX9QehM7znuImiBBjPu1\\\",\\\"onlyContactFilters\\\":false}\",\n        \"sortBy\": \"\",\n        \"sortOrder\": \"desc\",\n        \"state\": \"USA - All\",\n        \"subscribed\": true\n   }\n}"
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/profiles/graphql",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"profiles",
+								"graphql"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Top Executives",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "user",
+								"value": " 20040162",
+								"type": "text"
+							},
+							{
+								"key": "user-agent",
+								"value": " Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-origin",
+								"value": " rum",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-parent-id",
+								"value": " 5114895412708622094",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-sampled",
+								"value": " 1",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-sampling-priority",
+								"value": " 1",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-trace-id",
+								"value": " 5863164810361450461",
+								"type": "text"
+							},
+							{
+								"key": "x-sourceid",
+								"value": " GrowUI",
+								"type": "text"
+							},
+							{
+								"key": "x-ziaccesstoken",
+								"value": " eyJraWQiOiIwTFFMVmNZOFlzZFhtNExpX0pVWVFfUUNfX0Q1Sl9lajB6RXJBcmg2Rkk0IiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULnFmWWRxeGIyQmx6Y3kwNW1Dc1o3bXlNaGVNaXNEVGlFWjE5UlRXZkhYVGsiLCJpc3MiOiJodHRwczovL3pvb21pbmZvLWNpYW0tc3RhZ2luZy5va3RhcHJldmlldy5jb20vb2F1dGgyL2RlZmF1bHQiLCJhdWQiOiJhcGk6Ly9kZWZhdWx0IiwiaWF0IjoxNjQzOTU1NTg5LCJleHAiOjE2NDQwMDk1ODksImNpZCI6IjBvYTEzaWxxOGxNZVlTQ0VpMWQ3IiwidWlkIjoiMDB1Mmg3ODlwb3VKajdGNXExZDciLCJzY3AiOlsib3BlbmlkIl0sInppVXNlcm5hbWUiOiJ0ZWFtLjI4LnByb2Zlc3Npb25hbEB0ZXN0aW5nLnpvb21pbmZvLmNvbSIsInN1YiI6InRlYW0uMjgucHJvZmVzc2lvbmFsQHRlc3Rpbmcuem9vbWluZm8uY29tIiwiZmlyc3ROYW1lIjoiVGVhbSAyOCIsImxhc3ROYW1lIjoiUHJvZmZlc3Npb25hbCIsInppU2Vzc2lvblR5cGUiOjcwLCJ6aUdyb3VwSWQiOjAsInppVXNlcklkIjoyMDA0MDE2MiwiemlUZW5hbnRJZCI6MTAwMTcyNTQsInppTW9uZ29Vc2VySWQiOiIyMDA0MDE2MiIsInppUGxhdGZvcm1zIjpbIkRPWkkiXX0.DCC9Yc7C_nXMQNc0OTSZe55a4lA4-_NOv8-gGwKYSVI11IlsdbveLmjtaUL6PxyouFZo1TmtG-w4A5PnN9ncAQNJrtlsRU4FPZ4kCvYGEFWrq3oFnrQhJBIQ-TKvRMgai41wCLe8OeNdtsdzoTmrtiKiF8VXRWvQJTJcqBU2VDdLKQl3dsbakocwqg86N8tvRhz1jyAmNLOOZeTHhD5bxzISoy0YAl_ovzGgo2KNLTZJuvsfGiWfopftpSxESD8GHLeYnei-vMgTuSTl0VlVEI_aFvdOs6qF2OR2Hfi1hUvWI8if3S6gjqm07sybEHqsAJhCnQfGudJM5UUNfxZTcw",
+								"type": "text"
+							},
+							{
+								"key": "x-ziid",
+								"value": " RiQDoJM78hkY2W-ABE65FZhXFkrtw5XsVGpSYdEdWINvPKGcRnKoaA2KUkbiALmxmgQbaiv00NSJEPz606CNFA",
+								"type": "text"
+							},
+							{
+								"key": "x-zisession",
+								"value": " eeMuYutkKj7JTbWyDRIO46JzjcASCnqDHckDk0Z4aaySGGD-qG0DbA2KUkbiALmxmgQbaiv00NSXMeJ7qgWalUwpx18a8Oe4gelxg_8YZGdR9TAUd621b9qU4zY8PV9DAa0HAyC6N0fF3o9PIHRhAhEKI6G8Tl-BuOXzbFfP4dzu1789znsbuxD6vqYTYxmFMGzb3lmxb4-dwTs3s-qy1kE6zTAUTmFgEhXnSA9Mc5-zD1YLBfZonLn7Lhg40eXLBH7BBE7kECXPGB4OBis_hqm1xhc4fnKknwNYMiMHSk-1YL9yGlbi9PdMUEkvTlV7H_GioZRmRld06XiYdIGzrTyi3iR0G4jOxtfxO8uBU4GKfrysYOhq2mZ903o86UCIyYfujDH5vePhgJUKAvcQSIr1EmmmYKCNZNxfuZzQqiRTz8g6hz56XWAQUDU69XjvX4eqNbbR1pXSGltlEoK0gFfrORlkHhn_lgkP1kYl0dESjZrJ-tkpAcMkcO0a3QlsZOSG_lS8WYzZlf6Dy4ZPIb6_9gJFKWY6Sxvr7kiQxFhDggDVT8bCH9Ouse9suKYHUZDGbz02kIDS_7xbOeggNaDNUNGmBz9H2IKgX9E9Rj4KGGyXAYTEM9GUywu617QU_HcetNYJqYehMQ_PF482rsjsSPw_NUFGDdccDH8XrqhqVTST8lHpBXyhSZmwzzgPKK8lhxA03R3Z51WYHuYQ0x8CL762FKm2ZYdrK5wfn9gulLj3nNpuvXSCNM0Pl-CGhPJ0wSF2AynDuGAJMBm74zJbnzaDGcX9xa4Q7XpDkSZrXrBYMuZJycfaTV8TDNy2pe-onwsOnOw",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "",
+								"variables": ""
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/profiles/graphql",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"profiles",
+								"graphql"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Scoops",
+			"item": [
+				{
+					"name": "Scoops Search",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "user",
+								"value": " qnKXQeac6bjiEamZwOS6",
+								"type": "text"
+							},
+							{
+								"key": "user-agent",
+								"value": " Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-origin",
+								"value": " rum",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-parent-id",
+								"value": " 2246890825156153135",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-sampled",
+								"value": " 1",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-sampling-priority",
+								"value": " 1",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-trace-id",
+								"value": " 5325487820336161339",
+								"type": "text"
+							},
+							{
+								"key": "x-sourceid",
+								"value": " GrowUI",
+								"type": "text"
+							},
+							{
+								"key": "x-ziaccesstoken",
+								"value": " eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJyYW4uc3Bla3RvckB6b29taW5mby5jb20iLCJsYXN0TmFtZSI6InNwZWt0b3IiLCJ6aVNlc3Npb25UeXBlIjotMywidmVyIjoxLCJ6aUdyb3VwSWQiOjAsImlzcyI6Imh0dHBzOi8vem9vbWluZm8tY2lhbS1zdGFnaW5nLm9rdGFwcmV2aWV3LmNvbS9vYXV0aDIvZGVmYXVsdCIsInppUGxhdGZvcm1zIjpbIlJFQ1JVSVRFUiIsIk1BUktFVElORyIsIkRPWkkiLCJaSSBDSEFUIl0sInppVXNlcm5hbWUiOiJyYW4uc3Bla3RvckB6b29taW5mby5jb20iLCJhdWQiOiJhcGk6Ly9kZWZhdWx0IiwiZmlyc3ROYW1lIjoicmFuIiwidWlkIjoiMDB1MWRvNTE3NjZJOGt2OUgxZDciLCJ6aVVzZXJJZCI6MjAwMjI1NTYsImV4cCI6MTY0NDAxMjQ4NiwiaWF0IjoxNjQzOTU4NDg2LCJ6aVRlbmFudElkIjoxMDAwMDAwMCwianRpIjoiZDk2YTczYzUtNWEzMy00YTcyLTg5ZjQtODM4OTZlNDY1ZDRjIn0.ItrsUc8xCzSRtaDgM71zhNuJ8wpQ5UF_tqWz0iopRTea6wawAXvnITmYWq93OTCCkqYD1s5JE86Oe73ezLs83Mqv1LdU7deuHS2rjg2RS9n3WpbzejK-DeScfzbs3ojOVDXPq8AisHgLnjhxIxL5n9jZTzxmbhwPqmJxbX0HXmS2w2N0bkRC-F41IZYZGxb1SBdfJkp3q5iBCA845B-PmxNvq9KFLjnqqaZJgXO5odSuKS7h0an1XF_e4eYl-9sVDQnn3lVJEUieHqATbUQEi_v_Igret1xSfE-Po8BOXWvdt6ykNFGcszJ_gkBvrKKcBDFW6lUp3QDMiasavArS4w",
+								"type": "text"
+							},
+							{
+								"key": "x-ziid",
+								"value": " yTo3Hkg013-6ufc6uprY1U2-tKHEexdshqCHAkbXUFK0v-T8LFZRJb3capjbH51XLPhGsCiHHXTOZ20LX8gZZA",
+								"type": "text"
+							},
+							{
+								"key": "x-zisession",
+								"value": " f9AUV5YQ6_amdE9UObVOXOJZtcdXTv0vj2RPZbCKe-KkomrHoJ0N-73capjbH51XLPhGsCiHHXQu-fhpX9e-R8ijL8FR04JIZLTO3MrT7HcMD29d0nTT8EOvE_cYPENpb3ywTIzRnfMfUSidUeoytGfolP_mlBXmYU8OajH_2K-Fdty-mTNA8jV6ijoz_BQlKSwTLz3JtkX2UJYSNqxNxm0hsdr4NdUuyRdS-y25mu6gaZBEHZtSrfsNz3x-Xny4yNekzpH4nwE4wYWT8b48-IYgmQEV6Mfpqgo7ownm3E-zTy3kPAfzO2nGEtfKYQd_aAscDGG7P5-oFsths69xZgyVNjMuDE0bbwX25mReZmhz4fD0OG7dj-woEl1QzsNbfMt3GZwK4NKxK0rCheuB_I-uovMtpokJ-KxDz7KWNGhkk2fSi2WMnK0xCtZU--EyjYmRGBpBgrGmN7J5hWgX8zqdeUqYGrzuDpUjQFI-v_oHfHTmnVNCzp8d6pacvNqd9yacq0RTm746O4F8HvnbLs16cm5l6VEFOxPyPCSFO-qfUWS_jbt6yqSY8BAeLxrfvNC_n35YdkYVB7qam3FVmbr4RB_1sMktyB_ydq4J34QSjJEuu0C9MMSgA8vZa74QoVrbwQ9UVLO87iIly6Sqy8PapLhF0uy2U4TfIbgk59EbkqJ5yUKhzvvV-bTfAu-kQXrM6qvRuoFeJIPgP_-wueSc2o_4AZRtrPEdp1T7-ykkGSKsxjPn4hYy0TeS9CvP9G6uOuUZHZxRZeNQqpIu8cr_gj29RTsa1R72Dd2f1XS5saqAQNPb1oke18jvhv2UGa2OlauXS0hQx15dOdIjPqwxSGzaj2vh1hvCpstM_z0TV-iHJGccIjiVlQQRsAmFJ5MsTBzprfF1CTOk1zGQrhRrLET5Xx0QTGwZlTkXuuGSWOBYbe-GHN2WGW-Q6Ys6CjARE8JgHGcBWegX4FZ-zU3PyRQPhF1MTLc9ZamNZMBVR40p-ATskAkgmeLVQhiqvETpNlq_YUx1GQFdiEYGWuNVYhn4mT-zOY0jJ6TrOESxQS97NW3tZQa87K_72EnPBsYEivF0l0iiE-y8eh-jSBikY8moZuSWAE3m3Z8VeUH6tgOagx5ycpKTvmceFYw5IkZdxItMOQyLJ1FHET6oOZkoAfo5-2Rwky0BaFp3qk_PGB4OBis_hnIPHlIA07cvqbXGFzh-cqQcFF9sc4Xqyy0x7_gOD_ChWOyQCAgUVwTSlS61VwFhOcD03znSncSfZn3TejzpQIgQajoNKTc9vKw957PJhx9AA17Thw3QdKyQwQbzJ7cyVnqKa0270xyFI6N03VAE1CiKCs2RGUSxjq079XiYykui87ESKCuEQUtxG7rNaWondiU1kJFBIseRr6hwfFJJRIEZrMzjPpy0CoPfp9JRgUTrxXNpqukKw49ejuXrYmB7ikGelQBVpkA1H-JxzPiW0dNI3P5BCA37B-IJAokBYWR0hyRR9t_7XG-FjYCTLCQp5c_DP1plPxKdyXNPIfpCsXxvAAQFngJWVrBwCAQCldO9Us7RBUmoX3KdZR0yIEDaLM2akEl7Xx4d2gG8ue2wOSbmuGt1Il5ns-oc4NwK067dS7aG-PnInOGjGmoQeOKsr-eY8cSP3nhG_BGMy2mn6Q_d0QDP4BxHTVG3yhwhYULxujvalhpoi1m4bjLEbat-xWo-ubgHE0um8t4s0Nfmw-dhTnrjC6qjew",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "query scoopsSearch($companyIds: String!) {\n  scoopsSearch(\n    companyIds: $companyIds\n  ) {\n            publishedDate\n            description,\n            scoopTypes:types{scoopType},\n            originalPublishedDate,\n            id,\n            updatedText,\n            personRecords \n                {\n                    personId,\n                    firstName,\n                    lastName\n                },\n            company{masked,domain,id,companyName:name,subscribed,domain,certified,type},\n            scoopTopics:topics{scoopTopic},\n            imageUrl,\n            orgImport\n      } \n}\n",
+								"variables": "{\n  \"companyIds\": \"344589814\"\n}"
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/profiles/graphql/ScoopsSearch",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"profiles",
+								"graphql",
+								"ScoopsSearch"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Scoops Company Search",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "user",
+								"value": " qnKXQeac6bjiEamZwOS6",
+								"type": "text"
+							},
+							{
+								"key": "user-agent",
+								"value": " Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-origin",
+								"value": " rum",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-parent-id",
+								"value": " 2246890825156153135",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-sampled",
+								"value": " 1",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-sampling-priority",
+								"value": " 1",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-trace-id",
+								"value": " 5325487820336161339",
+								"type": "text"
+							},
+							{
+								"key": "x-sourceid",
+								"value": " GrowUI",
+								"type": "text"
+							},
+							{
+								"key": "x-ziaccesstoken",
+								"value": " eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJyYW4uc3Bla3RvckB6b29taW5mby5jb20iLCJsYXN0TmFtZSI6InNwZWt0b3IiLCJ6aVNlc3Npb25UeXBlIjotMywidmVyIjoxLCJ6aUdyb3VwSWQiOjAsImlzcyI6Imh0dHBzOi8vem9vbWluZm8tY2lhbS1zdGFnaW5nLm9rdGFwcmV2aWV3LmNvbS9vYXV0aDIvZGVmYXVsdCIsInppUGxhdGZvcm1zIjpbIlJFQ1JVSVRFUiIsIk1BUktFVElORyIsIkRPWkkiLCJaSSBDSEFUIl0sInppVXNlcm5hbWUiOiJyYW4uc3Bla3RvckB6b29taW5mby5jb20iLCJhdWQiOiJhcGk6Ly9kZWZhdWx0IiwiZmlyc3ROYW1lIjoicmFuIiwidWlkIjoiMDB1MWRvNTE3NjZJOGt2OUgxZDciLCJ6aVVzZXJJZCI6MjAwMjI1NTYsImV4cCI6MTY0NDAxMjQ4NiwiaWF0IjoxNjQzOTU4NDg2LCJ6aVRlbmFudElkIjoxMDAwMDAwMCwianRpIjoiZDk2YTczYzUtNWEzMy00YTcyLTg5ZjQtODM4OTZlNDY1ZDRjIn0.ItrsUc8xCzSRtaDgM71zhNuJ8wpQ5UF_tqWz0iopRTea6wawAXvnITmYWq93OTCCkqYD1s5JE86Oe73ezLs83Mqv1LdU7deuHS2rjg2RS9n3WpbzejK-DeScfzbs3ojOVDXPq8AisHgLnjhxIxL5n9jZTzxmbhwPqmJxbX0HXmS2w2N0bkRC-F41IZYZGxb1SBdfJkp3q5iBCA845B-PmxNvq9KFLjnqqaZJgXO5odSuKS7h0an1XF_e4eYl-9sVDQnn3lVJEUieHqATbUQEi_v_Igret1xSfE-Po8BOXWvdt6ykNFGcszJ_gkBvrKKcBDFW6lUp3QDMiasavArS4w",
+								"type": "text"
+							},
+							{
+								"key": "x-ziid",
+								"value": " yTo3Hkg013-6ufc6uprY1U2-tKHEexdshqCHAkbXUFK0v-T8LFZRJb3capjbH51XLPhGsCiHHXTOZ20LX8gZZA",
+								"type": "text"
+							},
+							{
+								"key": "x-zisession",
+								"value": " f9AUV5YQ6_amdE9UObVOXOJZtcdXTv0vj2RPZbCKe-KkomrHoJ0N-73capjbH51XLPhGsCiHHXQu-fhpX9e-R8ijL8FR04JIZLTO3MrT7HcMD29d0nTT8EOvE_cYPENpb3ywTIzRnfMfUSidUeoytGfolP_mlBXmYU8OajH_2K-Fdty-mTNA8jV6ijoz_BQlKSwTLz3JtkX2UJYSNqxNxm0hsdr4NdUuyRdS-y25mu6gaZBEHZtSrfsNz3x-Xny4yNekzpH4nwE4wYWT8b48-IYgmQEV6Mfpqgo7ownm3E-zTy3kPAfzO2nGEtfKYQd_aAscDGG7P5-oFsths69xZgyVNjMuDE0bbwX25mReZmhz4fD0OG7dj-woEl1QzsNbfMt3GZwK4NKxK0rCheuB_I-uovMtpokJ-KxDz7KWNGhkk2fSi2WMnK0xCtZU--EyjYmRGBpBgrGmN7J5hWgX8zqdeUqYGrzuDpUjQFI-v_oHfHTmnVNCzp8d6pacvNqd9yacq0RTm746O4F8HvnbLs16cm5l6VEFOxPyPCSFO-qfUWS_jbt6yqSY8BAeLxrfvNC_n35YdkYVB7qam3FVmbr4RB_1sMktyB_ydq4J34QSjJEuu0C9MMSgA8vZa74QoVrbwQ9UVLO87iIly6Sqy8PapLhF0uy2U4TfIbgk59EbkqJ5yUKhzvvV-bTfAu-kQXrM6qvRuoFeJIPgP_-wueSc2o_4AZRtrPEdp1T7-ykkGSKsxjPn4hYy0TeS9CvP9G6uOuUZHZxRZeNQqpIu8cr_gj29RTsa1R72Dd2f1XS5saqAQNPb1oke18jvhv2UGa2OlauXS0hQx15dOdIjPqwxSGzaj2vh1hvCpstM_z0TV-iHJGccIjiVlQQRsAmFJ5MsTBzprfF1CTOk1zGQrhRrLET5Xx0QTGwZlTkXuuGSWOBYbe-GHN2WGW-Q6Ys6CjARE8JgHGcBWegX4FZ-zU3PyRQPhF1MTLc9ZamNZMBVR40p-ATskAkgmeLVQhiqvETpNlq_YUx1GQFdiEYGWuNVYhn4mT-zOY0jJ6TrOESxQS97NW3tZQa87K_72EnPBsYEivF0l0iiE-y8eh-jSBikY8moZuSWAE3m3Z8VeUH6tgOagx5ycpKTvmceFYw5IkZdxItMOQyLJ1FHET6oOZkoAfo5-2Rwky0BaFp3qk_PGB4OBis_hnIPHlIA07cvqbXGFzh-cqQcFF9sc4Xqyy0x7_gOD_ChWOyQCAgUVwTSlS61VwFhOcD03znSncSfZn3TejzpQIgQajoNKTc9vKw957PJhx9AA17Thw3QdKyQwQbzJ7cyVnqKa0270xyFI6N03VAE1CiKCs2RGUSxjq079XiYykui87ESKCuEQUtxG7rNaWondiU1kJFBIseRr6hwfFJJRIEZrMzjPpy0CoPfp9JRgUTrxXNpqukKw49ejuXrYmB7ikGelQBVpkA1H-JxzPiW0dNI3P5BCA37B-IJAokBYWR0hyRR9t_7XG-FjYCTLCQp5c_DP1plPxKdyXNPIfpCsXxvAAQFngJWVrBwCAQCldO9Us7RBUmoX3KdZR0yIEDaLM2akEl7Xx4d2gG8ue2wOSbmuGt1Il5ns-oc4NwK067dS7aG-PnInOGjGmoQeOKsr-eY8cSP3nhG_BGMy2mn6Q_d0QDP4BxHTVG3yhwhYULxujvalhpoi1m4bjLEbat-xWo-ubgHE0um8t4s0Nfmw-dhTnrjC6qjew",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "query scoopsSearch($companyIds: String!) {\n  scoopsSearch(\n    companyIds: $companyIds\n  ) {\n            publishedDate\n            description,\n            scoopTypes:types{scoopType},\n            originalPublishedDate,\n            id,\n            updatedText,\n            personRecords \n                {\n                    personId,\n                    firstName,\n                    lastName\n                },\n            company{masked,domain,id,companyName:name,subscribed,domain,certified,type},\n            scoopTopics:topics{scoopTopic},\n            imageUrl,\n            orgImport\n      } \n}\n",
+								"variables": "{\n  \"companyIds\": \"344589814\"\n}"
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/profiles/graphql/ScoopsSearch",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"profiles",
+								"graphql",
+								"ScoopsSearch"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Facets",
+			"item": [
+				{
+					"name": "Org Charts Facets",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "session-token",
+								"value": " r:b5fb3833669604520777d5407aac8b2b",
+								"type": "text"
+							},
+							{
+								"key": "user",
+								"value": " O1m6HWzgNOTDVgIehJSR",
+								"type": "text"
+							},
+							{
+								"key": "user-agent",
+								"value": " Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-origin",
+								"value": " rum",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-parent-id",
+								"value": " 5845963256964738418",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-sampled",
+								"value": " 1",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-sampling-priority",
+								"value": " 1",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-trace-id",
+								"value": " 2723352432996847281",
+								"type": "text"
+							},
+							{
+								"key": "x-sourceid",
+								"value": " GrowUI",
+								"type": "text"
+							},
+							{
+								"key": "x-ziaccesstoken",
+								"value": " eyJraWQiOiI1di1ESGZzNTl2dDdyRFlHYXVhMW5fMjFFejI5Tm1vRktONGE4ejFMU25rIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULlBSWHN6SXVqNTljVzMtc1NVYXYtSjdkZE4tMUFNT01kRUN0UF9BdDRjVWMiLCJpc3MiOiJodHRwczovL3pvb21pbmZvLWNpYW0tc3RhZ2luZy5va3RhcHJldmlldy5jb20vb2F1dGgyL2RlZmF1bHQiLCJhdWQiOiJhcGk6Ly9kZWZhdWx0IiwiaWF0IjoxNjM1Nzc0NjY3LCJleHAiOjE2MzU4MTc4NjcsImNpZCI6IjBvYTEzaWxxOGxNZVlTQ0VpMWQ3IiwidWlkIjoiMDB1MWN2aXRmY3MxdmNjZFMxZDciLCJzY3AiOlsib3BlbmlkIl0sInppVXNlcm5hbWUiOiJ2aXRhbGkubXV6aGFpbG9Aem9vbWluZm8uY29tIiwic3ViIjoidml0YWxpLm11emhhaWxvQHpvb21pbmZvLmNvbSIsInppR3JvdXBJZCI6MCwiemlVc2VySWQiOjIwMDM0Nzk1LCJ6aVRlbmFudElkIjoxMDAwMDAwMCwiemlQbGF0Zm9ybXMiOlsiUkVBQ0hPVVQiLCJTRk5BIiwiRE9aSSIsIk1PQklMRSJdfQ.DuJpOpx_Ilux_mJPFhg33JXgnCxIwN954261ivdpA1k4mT2CkA377G7hsxIF39rsY-DsR0YFNpFkklEAeQ0H-1cBTvkKmybjvYHHJ5eC4MUL7FppKfukB0HnRWH4m5qMteIZQzVoec0O1PCwgwLuzFwR5RDRAdnIdyMlRp6tz3IHQk0eHVXso99luRNf7MKwWo7k6GRDqWu_n7RDQjpq0m3vJxWlSX8IohKQGo_a8W0xjlb2NzFDQGDLkBXz-0sg8VyZJfgkQ6Vs6D57DjM2iMzWr-UEfpAm9nl7Uupx_hCt_WojXK_4JYdvG8OGl5v9mpBXj_4CcdD9yfZDZaOkZg",
+								"type": "text"
+							},
+							{
+								"key": "x-ziid",
+								"value": " s9GANqSfqHW02bVzA9qK3-V-KJ1zYe7F-6lnxNJC2Xod6e8T6tH61FXwh8yOs83x6AO56D7w3MCx7k8Lh_NxOw",
+								"type": "text"
+							},
+							{
+								"key": "x-zisession",
+								"value": "e4t15r8ULJyKAHYOYSncIqQe_Lqww9hLO65AgtJLKx7pB3i0O6B6ZVXwh8yOs83xKUrML_bnVYynzBPZSGHpOUwpx18a8Oe4gelxg_8YZGdxKzvAVB1bliU3KqFVSJQJbaTzJFFpGU9b3IqKSWlKVojM42zNZiHYVSClwXzJhtCd7cr0Y4cNHlD51jsiM-rLg-qI6Yc8jjLw1VkDH6OGO1XRXSK386u98Uremzs0Pz6rvXisyJmaebC3hZTD0e86ekI6gDwpo6PhWORgD6Zdo4EnjBhrPL3WPV-LJsPWwgGPlLZga8NeDRH2pi9bKQPUwPDZd3TfLMKnqqv0KbU1RosYe2CxwWCns5UEhblIo0JtQvyx4A8zdDuX7BaaHrZZ02VaxEL63_ChUtKASY1eilHZoSEHiRKVth7-zi_upxhm76LroIxeJxjQp2mvOAO4YeYALJhoNY7e_S5_437heVTrlv-fkKyOSblmbPBNqNd0HqguPUztMtavhEQoeB98yy_KRX8mtuVSiGq5cuMudXqcJnKAPs6CPbWyaFU1uSW-FfGjcCNagNBGwka8xXMJLhBxlxpHyfJKmcyL5gcIGLdvWjCAYZBBKqHrxFEOtT5mn0dbLm3pP-L6h4V6ykx0WySTM7ZYxYIu_eNt-JZMJYDON8VuSRaBFvrcz8aHDjxuoPYzWLPnLm1T4EkzwN33zv10Ozzy817mOxkKnyB9iyivJYcQNN0dUSgQmfaCdJKKExWEuof5RKW10LfrqIpcNJGm0rY6Tqo319N33hHL47_D_jitk2ASTNQLDO-CBRt4LNDRNXj5FENYxbY9ys2pepXKofRuoIESHpaAXs-7aVx8-Oe0lEv1rH6I8V2gEJXZJ7PizUQMHYqPTivAgMRLy2vxcr1EAnS8kmHCeYs4vxWuxxdo1tdaA4Ux8vU4esAf-OY5mPF9979BrcJU8fVcqi8pA9Te1gVAmJywILPH4pDGaeJ2JiHN6Ao74diPYrTZdiyOsc4yjZopaObIXYEshTtHqfLnazMG6VR4kwPQqhdAgeaq5tez2MD6Ccly16JBAXuZZTX6H7EESsnWkA_P7I_y3VcxzNhKI8k41oi8txjT1a8EpcEqYGOGT2uS59J0nSVgDmoT8FnkIw4kUzFT-LdeeVo5eEnhKoj2xyZE2QA7F3s3fxpyy_3PW5IvbuOMfh6uhvNeSPkBH2SqfaTEFV7-UTczcRaOJ9sPCg35wtnrTyz-6TwWWLCBDJwbqM8_k_uL1k7zYNDtA0Mrbg5XWDPaiFQ6bg-SQADuQzPqydYCfyCNCQrIm5D5ZYq-c5qjBhvBEIQlgG-LhKmHb84caLNPFj79rGZwOKKLcuD97NOZvvb4LxgEeyZYwjJUirZ9WuywCUkjchNjdM945s93jAdt4gZcxm5Qu6aZvqBLBzf8D-UJjPZrXyF_04dzc2QoeF98Rmg495tYAHNSPwybiAAGhOMrVSL8PtOPzi2E8V-n2RQAQu_uZxC2MRseNhOGgkCwMhFUV_RM6O13Rlcv0kH-sEjapX6wDC8jAyWu8jzgy9RSFfkE5b-nHJ4RN_jrKYNuQlGiPn0KQUoay_Fb3hoEBGzRJNWMIO9xMzuEzmWHayucH5_YQV39pkderwCtCEbsKAYjaF-Fp47WJQEdM1LL6vL1cWTZScHXsL78iw",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "query facets ($companyId: String!){\n      facets (companyId: $companyId) {\n        orgChartFacets (companyId: $companyId)\n          {\n            facets\n            {\n                name,\n                counts{\n                    id,\n                    count,\n                    name\n                }\n            }\n         }\n        }\n      }\n",
+								"variables": "{\"companyId\": \"411732843\"}"
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/profiles/graphql/facets",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"profiles",
+								"graphql",
+								"facets"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Hierarchy",
+			"item": [
+				{
+					"name": "Company Hierarchy  Search",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "session-token",
+								"value": " r:b5fb3833669604520777d5407aac8b2b",
+								"type": "text"
+							},
+							{
+								"key": "user",
+								"value": " O1m6HWzgNOTDVgIehJSR",
+								"type": "text"
+							},
+							{
+								"key": "user-agent",
+								"value": " Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-origin",
+								"value": " rum",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-parent-id",
+								"value": " 5845963256964738418",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-sampled",
+								"value": " 1",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-sampling-priority",
+								"value": " 1",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-trace-id",
+								"value": " 2723352432996847281",
+								"type": "text"
+							},
+							{
+								"key": "x-sourceid",
+								"value": " GrowUI",
+								"type": "text"
+							},
+							{
+								"key": "x-ziaccesstoken",
+								"value": " eyJraWQiOiI1di1ESGZzNTl2dDdyRFlHYXVhMW5fMjFFejI5Tm1vRktONGE4ejFMU25rIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULlBSWHN6SXVqNTljVzMtc1NVYXYtSjdkZE4tMUFNT01kRUN0UF9BdDRjVWMiLCJpc3MiOiJodHRwczovL3pvb21pbmZvLWNpYW0tc3RhZ2luZy5va3RhcHJldmlldy5jb20vb2F1dGgyL2RlZmF1bHQiLCJhdWQiOiJhcGk6Ly9kZWZhdWx0IiwiaWF0IjoxNjM1Nzc0NjY3LCJleHAiOjE2MzU4MTc4NjcsImNpZCI6IjBvYTEzaWxxOGxNZVlTQ0VpMWQ3IiwidWlkIjoiMDB1MWN2aXRmY3MxdmNjZFMxZDciLCJzY3AiOlsib3BlbmlkIl0sInppVXNlcm5hbWUiOiJ2aXRhbGkubXV6aGFpbG9Aem9vbWluZm8uY29tIiwic3ViIjoidml0YWxpLm11emhhaWxvQHpvb21pbmZvLmNvbSIsInppR3JvdXBJZCI6MCwiemlVc2VySWQiOjIwMDM0Nzk1LCJ6aVRlbmFudElkIjoxMDAwMDAwMCwiemlQbGF0Zm9ybXMiOlsiUkVBQ0hPVVQiLCJTRk5BIiwiRE9aSSIsIk1PQklMRSJdfQ.DuJpOpx_Ilux_mJPFhg33JXgnCxIwN954261ivdpA1k4mT2CkA377G7hsxIF39rsY-DsR0YFNpFkklEAeQ0H-1cBTvkKmybjvYHHJ5eC4MUL7FppKfukB0HnRWH4m5qMteIZQzVoec0O1PCwgwLuzFwR5RDRAdnIdyMlRp6tz3IHQk0eHVXso99luRNf7MKwWo7k6GRDqWu_n7RDQjpq0m3vJxWlSX8IohKQGo_a8W0xjlb2NzFDQGDLkBXz-0sg8VyZJfgkQ6Vs6D57DjM2iMzWr-UEfpAm9nl7Uupx_hCt_WojXK_4JYdvG8OGl5v9mpBXj_4CcdD9yfZDZaOkZg",
+								"type": "text"
+							},
+							{
+								"key": "x-ziid",
+								"value": " s9GANqSfqHW02bVzA9qK3-V-KJ1zYe7F-6lnxNJC2Xod6e8T6tH61FXwh8yOs83x6AO56D7w3MCx7k8Lh_NxOw",
+								"type": "text"
+							},
+							{
+								"key": "x-zisession",
+								"value": "E7zMXSzSEnGnlI-BabebzG5GabTrAl5xYvc41Vu4gGoIrt9wWe3cxFXwh8yOs83xQnuTsHJc6uJRi_j7Q5LxLUwpx18a8Oe4gelxg_8YZGdxKzvAVB1bliU3KqFVSJQJbaTzJFFpGU9b3IqKSWlKVojM42zNZiHYVSClwXzJhtCd7cr0Y4cNHlD51jsiM-rLg-qI6Yc8jjLw1VkDH6OGO1XRXSK386u98Uremzs0Pz6rvXisyJmaebC3hZTD0e86ekI6gDwpo6PhWORgD6Zdo4EnjBhrPL3WPV-LJsPWwgGPlLZga8NeDRH2pi9bKQPUwPDZd3TfLMKnqqv0KbU1RosYe2CxwWCns5UEhblIo0JtQvyx4A8zdDuX7BaaHrZZ02VaxEL63_ChUtKASY1eilHZoSEHiRKVth7-zi_upxhm76LroIxeJxjQp2mvOAO4YeYALJhoNY7e_S5_437heVTrlv-fkKyOSblmbPBNqNd0HqguPUztMtavhEQoeB98yy_KRX8mtuVSiGq5cuMudXqcJnKAPs6CPbWyaFU1uSW-FfGjcCNagNBGwka8xXMJLhBxlxpHyfJKmcyL5gcIGLdvWjCAYZBBKqHrxFEOtT5mn0dbLm3pP-L6h4V6ykx0WySTM7ZYxYIu_eNt-JZMJYDON8VuSRaBFvrcz8aHDjxuoPYzWLPnLm1T4EkzwN33zv10Ozzy817mOxkKnyB9iyivJYcQNN0dUSgQmfaCdJKKExWEuof5RKW10LfrqIpcNJGm0rY6Tqo319N33hHL47_D_jitk2ASTNQLDO-CBRt4LNDRNXj5FENYxbY9ys2pepXKofRuoIESHpaAXs-7aVx8-Oe0lEv1rH6I8V2gEJXZJ7PizUQMHYqPTivAgMRLy2vxcr1EAnS8kmHCeYs4vxWuxxdo1tdaA4Ux8vU4esAf-OY5mPF9979BrcJU8fVcqi8pA9Te1gVAmJywILPH4pDGaeJ2JiHN6Ao74diPYrTZdiyOsc4yjZopaObIXYEshTtHqfLnazMG6VR4kwPQqhdAgeaq5tez2MD6Ccly16JBAXuZZTX6H7EESsnWkA_P7I_y3VcxzNhKI8k41oi8txjT1a8EpcEqYGOGT2uS59J0nSVgDmoT8FnkIw4kUzFT-LdeeVo5eEnhKoj2xyZE2QA7F3s3fxpyy_3PW5IvbuOMfh6uhvNeSPkBH2SqfaTEFV7-UTczcRaOJ9sPCg35wtnrTyz-6TwWWLCBDJwbqM8_k_uL1k7zYNDtA0Mrbg5XWDPaiFQ6bg-SQADuQzPqydYCfyCNCQrIm5D5ZYq-c5qjBhvBEIQlgG-LhKmHb84caLNPFj79rGZwOKKLcuD97NOZvvb4LxgEeyZYwjJUirZ9WuywCUkjchNjdM945s93jAdt4gZcxm5Qu6aZvqBLBzf8D-UJjPZrXyF_04dzc2QoeF98Rmg495tYAHNSPwybiAAGhOMrVSL8PtOPzi2E8V-n2RQAQu_uZxC2MRseNhOGgkCwMhFUV_RM6O13Rlcv0kH-sEjapX6wDC8jAyWu8jzgy9RSFfkE5b-nHJ4RN_jrKYNuQlGiPn0KQUoay_Fb3hoEBGzRJNWMIO9xMzuEzmWHayucH5_YQV39pkderwCtCEbsKAYjaF-Fp47WJQEdM1LL6vL1cWTZScHXsL78iw",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "query companyHierarchySearch($companyIds: String!) {\n  companyHierarchySearch(companyIds: $companyIds)\n  {\n        familyTree{\n            city,\n            familyNodes{\n                city,\n                id,\n                name,\n                subUnitTypeInfo{type},\n                familyNodes{\n                    city,\n                    id,\n                    name,\n                    subUnitTypeInfo{type}, \n                      familyNodes{\n                      city,\n                      id,\n                      name,\n                      subUnitTypeInfo{type},\n                        familyNodes{\n                            city,\n                            id,\n                            name,\n                            subUnitTypeInfo{type},\n                            familyNodes{\n                                city,\n                                id,\n                                name,\n                                subUnitTypeInfo{\n                                    type\n                                },\n                            }                  \n                        }  \n                    }\n                },           \n            },\n            id,\n            name,\n            subUnitTypeInfo{\n                type\n            },            \n        },\n            ultimateParent{\n                id,\n                name\n            }\n  }\n}",
+								"variables": "{\n\"companyIds\": \"344589814\"\n}"
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/profiles/graphql/companyHierarchySearch",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"profiles",
+								"graphql",
+								"companyHierarchySearch"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Quick Search",
+			"item": [
+				{
+					"name": "Quick Search",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "session-token",
+								"value": " r:b5fb3833669604520777d5407aac8b2b",
+								"type": "text"
+							},
+							{
+								"key": "user",
+								"value": " O1m6HWzgNOTDVgIehJSR",
+								"type": "text"
+							},
+							{
+								"key": "user-agent",
+								"value": " Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-origin",
+								"value": " rum",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-parent-id",
+								"value": " 5845963256964738418",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-sampled",
+								"value": " 1",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-sampling-priority",
+								"value": " 1",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-trace-id",
+								"value": " 2723352432996847281",
+								"type": "text"
+							},
+							{
+								"key": "x-sourceid",
+								"value": " GrowUI",
+								"type": "text"
+							},
+							{
+								"key": "x-ziaccesstoken",
+								"value": " eyJraWQiOiI1di1ESGZzNTl2dDdyRFlHYXVhMW5fMjFFejI5Tm1vRktONGE4ejFMU25rIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULlBSWHN6SXVqNTljVzMtc1NVYXYtSjdkZE4tMUFNT01kRUN0UF9BdDRjVWMiLCJpc3MiOiJodHRwczovL3pvb21pbmZvLWNpYW0tc3RhZ2luZy5va3RhcHJldmlldy5jb20vb2F1dGgyL2RlZmF1bHQiLCJhdWQiOiJhcGk6Ly9kZWZhdWx0IiwiaWF0IjoxNjM1Nzc0NjY3LCJleHAiOjE2MzU4MTc4NjcsImNpZCI6IjBvYTEzaWxxOGxNZVlTQ0VpMWQ3IiwidWlkIjoiMDB1MWN2aXRmY3MxdmNjZFMxZDciLCJzY3AiOlsib3BlbmlkIl0sInppVXNlcm5hbWUiOiJ2aXRhbGkubXV6aGFpbG9Aem9vbWluZm8uY29tIiwic3ViIjoidml0YWxpLm11emhhaWxvQHpvb21pbmZvLmNvbSIsInppR3JvdXBJZCI6MCwiemlVc2VySWQiOjIwMDM0Nzk1LCJ6aVRlbmFudElkIjoxMDAwMDAwMCwiemlQbGF0Zm9ybXMiOlsiUkVBQ0hPVVQiLCJTRk5BIiwiRE9aSSIsIk1PQklMRSJdfQ.DuJpOpx_Ilux_mJPFhg33JXgnCxIwN954261ivdpA1k4mT2CkA377G7hsxIF39rsY-DsR0YFNpFkklEAeQ0H-1cBTvkKmybjvYHHJ5eC4MUL7FppKfukB0HnRWH4m5qMteIZQzVoec0O1PCwgwLuzFwR5RDRAdnIdyMlRp6tz3IHQk0eHVXso99luRNf7MKwWo7k6GRDqWu_n7RDQjpq0m3vJxWlSX8IohKQGo_a8W0xjlb2NzFDQGDLkBXz-0sg8VyZJfgkQ6Vs6D57DjM2iMzWr-UEfpAm9nl7Uupx_hCt_WojXK_4JYdvG8OGl5v9mpBXj_4CcdD9yfZDZaOkZg",
+								"type": "text"
+							},
+							{
+								"key": "x-ziid",
+								"value": " s9GANqSfqHW02bVzA9qK3-V-KJ1zYe7F-6lnxNJC2Xod6e8T6tH61FXwh8yOs83x6AO56D7w3MCx7k8Lh_NxOw",
+								"type": "text"
+							},
+							{
+								"key": "x-zisession",
+								"value": "UcqwMl4j6xoAbY-EYeqY31CbWwQDILFrwtrbfKyPNSqJTJ2mQgN48VXwh8yOs83xZ2xbLTw20-QxSOg6tUvvzEwpx18a8Oe4gelxg_8YZGdxKzvAVB1bliU3KqFVSJQJbaTzJFFpGU9b3IqKSWlKVojM42zNZiHYVSClwXzJhtCd7cr0Y4cNHlD51jsiM-rLg-qI6Yc8jjLw1VkDH6OGO1XRXSK386u98Uremzs0Pz6rvXisyJmaebC3hZTD0e86ekI6gDwpo6PhWORgD6Zdo4EnjBhrPL3WPV-LJsPWwgGPlLZga8NeDRH2pi9bKQPUwPDZd3TfLMKnqqv0KbU1RosYe2CxwWCns5UEhblIo0JtQvyx4A8zdDuX7BaaHrZZ02VaxEL63_ChUtKASY1eilHZoSEHiRKVth7-zi_upxhm76LroIxeJxjQp2mvOAO4YeYALJhoNY7e_S5_437heVTrlv-fkKyOSblmbPBNqNd0HqguPUztMtavhEQoeB98yy_KRX8mtuVSiGq5cuMudXqcJnKAPs6CPbWyaFU1uSW-FfGjcCNagNBGwka8xXMJLhBxlxpHyfJKmcyL5gcIGLdvWjCAYZBBKqHrxFEOtT5mn0dbLm3pP-L6h4V6ykx0WySTM7ZYxYIu_eNt-JZMJYDON8VuSRaBFvrcz8aHDjxuoPYzWLPnLm1T4EkzwN33zv10Ozzy817mOxkKnyB9iyivJYcQNN0dUSgQmfaCdJKKExWEuof5RKW10LfrqIpcNJGm0rY6Tqo319N33hHL47_D_jitk2ASTNQLDO-CBRt4LNDRNXj5FENYxbY9ys2pepXKofRuoIESHpaAXs-7aVx8-Oe0lEv1rH6I8V2gEJXZJ7PizUQMHYqPTivAgMRLy2vxcr1EAnS8kmHCeYs4vxWuxxdo1tdaA4Ux8vU4esAf-OY5mPF9979BrcJU8fVcqi8pA9Te1gVAmJywILPH4pDGaeJ2JiHN6Ao74diPYrTZdiyOsc4yjZopaObIXYEshTtHqfLnazMG6VR4kwPQqhdAgeaq5tez2MD6Ccly16JBAXuZZTX6H7EESsnWkA_P7I_y3VcxzNhKI8k41oi8txjT1a8EpcEqYGOGT2uS59J0nSVgDmoT8FnkIw4kUzFT-LdeeVo5eEnhKoj2xyZE2QA7F3s3fxpyy_3PW5IvbuOMfh6uhvNeSPkBH2SqfaTEFV7-UTczcRaOJ9sPCg35wtnrTyz-6TwWWLCBDJwbqM8_k_uL1k7zYNDtA0Mrbg5XWDPaiFQ6bg-SQADuQzPqydYCfyCNCQrIm5D5ZYq-c5qjBhvBEIQlgG-LhKmHb84caLNPFj79rGZwOKKLcuD97NOZvvb4LxgEeyZYwjJUirZ9WuywCUkjchNjdM945s93jAdt4gZcxm7NvIwjRtDtf4ENjKsHnUwON_wP5QmM9mtfIX_Th3NzZCh4X3xGaDj3m1gAc1I_DJuIAAaE4ytVIvw-04_OLYTxX6fZFABC7-5nELYxGx42E4aCQLAyEVRX9Ezo7XdGVy_SQf6wSNqlfrAMLyMDJa7yPODL1FIV-QTlv6ccnhE3-Ospg25CUaI-fQpBShrL8VveGgQEbNEk1Ywg73EzO4TOZYdrK5wfn9hBXf2mR16vAK0IRuwoBiNoX4WnjtYlAR0zUsvq8vVxZNlJwdewvvyL",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": " query companyPeopleQuickSearch ($rpp: Float!,$quickSearch: String){\n      companyPeopleQuickSearch (rpp: $rpp, quickSearch: $quickSearch)       \n          {\n            success,\n            companies{\n                companiesCount,\n                data{\n                    companyDomain,\n                    companyEmployeeRange,\n                    companyID,\n                    companyName,\n                    industries{\n                        code,\n                        displayName,\n                        score\n                    },\n                    isDefunct,\n                     location{\n                        City,\n                        CountryCode,\n                        State,\n                        Street,\n                        Zip\n                    },\n                    logo,\n                    socialNetworkUrls{\n                        socialNetworkType,\n                        socialNetworkUrl\n                    },\n                    ultimateParent{\n                        id\n                    },                  \n                }\n                maxResults,\n                totalResults\n            }\n            contacts{\n                companiesCount,\n                data{\n                    companyId,\n                    companyName,\n                    isDefunct,\n                    logo,\n                    name,\n                    personID,\n                    title,\n                    ultimateParent{\n                        id\n                    }\n                },\n                 maxResults,\n                totalResults\n            },\n            onEnterTops{\n                type,\n                value\n            },\n            tops{\n                topCount,\n                topName,\n                topValue,\n                type,\n                value\n            },\n            trySearchSuggestions{\n                items{\n                    displayItem,\n                    searchType,\n                    suggestions{\n                        type,\n                        value\n                    }\n                },\n                showAdditionalTrySearches\n            }\n         }\n        }\n      \n",
+								"variables": "{\n   \"rpp\": 5,\n   \"quickSearch\": \"we\"\n}"
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/profiles/graphql/companyPeopleQuickSearch",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"profiles",
+								"graphql",
+								"companyPeopleQuickSearch"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Suggestions",
+			"item": [
+				{
+					"name": "People Suggestion",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "session-token",
+								"value": " r:b5fb3833669604520777d5407aac8b2b",
+								"type": "text"
+							},
+							{
+								"key": "user",
+								"value": " O1m6HWzgNOTDVgIehJSR",
+								"type": "text"
+							},
+							{
+								"key": "user-agent",
+								"value": " Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-origin",
+								"value": " rum",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-parent-id",
+								"value": " 5845963256964738418",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-sampled",
+								"value": " 1",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-sampling-priority",
+								"value": " 1",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-trace-id",
+								"value": " 2723352432996847281",
+								"type": "text"
+							},
+							{
+								"key": "x-sourceid",
+								"value": " GrowUI",
+								"type": "text"
+							},
+							{
+								"key": "x-ziaccesstoken",
+								"value": " eyJraWQiOiI1di1ESGZzNTl2dDdyRFlHYXVhMW5fMjFFejI5Tm1vRktONGE4ejFMU25rIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULlBSWHN6SXVqNTljVzMtc1NVYXYtSjdkZE4tMUFNT01kRUN0UF9BdDRjVWMiLCJpc3MiOiJodHRwczovL3pvb21pbmZvLWNpYW0tc3RhZ2luZy5va3RhcHJldmlldy5jb20vb2F1dGgyL2RlZmF1bHQiLCJhdWQiOiJhcGk6Ly9kZWZhdWx0IiwiaWF0IjoxNjM1Nzc0NjY3LCJleHAiOjE2MzU4MTc4NjcsImNpZCI6IjBvYTEzaWxxOGxNZVlTQ0VpMWQ3IiwidWlkIjoiMDB1MWN2aXRmY3MxdmNjZFMxZDciLCJzY3AiOlsib3BlbmlkIl0sInppVXNlcm5hbWUiOiJ2aXRhbGkubXV6aGFpbG9Aem9vbWluZm8uY29tIiwic3ViIjoidml0YWxpLm11emhhaWxvQHpvb21pbmZvLmNvbSIsInppR3JvdXBJZCI6MCwiemlVc2VySWQiOjIwMDM0Nzk1LCJ6aVRlbmFudElkIjoxMDAwMDAwMCwiemlQbGF0Zm9ybXMiOlsiUkVBQ0hPVVQiLCJTRk5BIiwiRE9aSSIsIk1PQklMRSJdfQ.DuJpOpx_Ilux_mJPFhg33JXgnCxIwN954261ivdpA1k4mT2CkA377G7hsxIF39rsY-DsR0YFNpFkklEAeQ0H-1cBTvkKmybjvYHHJ5eC4MUL7FppKfukB0HnRWH4m5qMteIZQzVoec0O1PCwgwLuzFwR5RDRAdnIdyMlRp6tz3IHQk0eHVXso99luRNf7MKwWo7k6GRDqWu_n7RDQjpq0m3vJxWlSX8IohKQGo_a8W0xjlb2NzFDQGDLkBXz-0sg8VyZJfgkQ6Vs6D57DjM2iMzWr-UEfpAm9nl7Uupx_hCt_WojXK_4JYdvG8OGl5v9mpBXj_4CcdD9yfZDZaOkZg",
+								"type": "text"
+							},
+							{
+								"key": "x-ziid",
+								"value": " s9GANqSfqHW02bVzA9qK3-V-KJ1zYe7F-6lnxNJC2Xod6e8T6tH61FXwh8yOs83x6AO56D7w3MCx7k8Lh_NxOw",
+								"type": "text"
+							},
+							{
+								"key": "x-zisession",
+								"value": "sqGycwH0SWk75EdovRK45UyK_0-D4Pm2z2wAgTkg0IKfSGKkDq5wfFXwh8yOs83xH-IzpRmJuwPnz9Hpgb9RVEwpx18a8Oe4gelxg_8YZGdxKzvAVB1bliU3KqFVSJQJbaTzJFFpGU9b3IqKSWlKVojM42zNZiHYVSClwXzJhtCd7cr0Y4cNHlD51jsiM-rLg-qI6Yc8jjLw1VkDH6OGO1XRXSK386u98Uremzs0Pz6rvXisyJmaebC3hZTD0e86ekI6gDwpo6PhWORgD6Zdo4EnjBhrPL3WPV-LJsPWwgGPlLZga8NeDRH2pi9bKQPUwPDZd3TfLMKnqqv0KbU1RosYe2CxwWCns5UEhblIo0JtQvyx4A8zdDuX7BaaHrZZ02VaxEL63_ChUtKASY1eilHZoSEHiRKVth7-zi_upxhm76LroIxeJxjQp2mvOAO4YeYALJhoNY7e_S5_437heVTrlv-fkKyOSblmbPBNqNd0HqguPUztMtavhEQoeB98yy_KRX8mtuVSiGq5cuMudXqcJnKAPs6CPbWyaFU1uSW-FfGjcCNagNBGwka8xXMJLhBxlxpHyfJKmcyL5gcIGLdvWjCAYZBBKqHrxFEOtT5mn0dbLm3pP-L6h4V6ykx0WySTM7ZYxYIu_eNt-JZMJYDON8VuSRaBFvrcz8aHDjxuoPYzWLPnLm1T4EkzwN33zv10Ozzy817mOxkKnyB9iyivJYcQNN0dUSgQmfaCdJKKExWEuof5RKW10LfrqIpcNJGm0rY6Tqo319N33hHL47_D_jitk2ASTNQLDO-CBRt4LNDRNXj5FENYxbY9ys2pepXKofRuoIESHpaAXs-7aVx8-Oe0lEv1rH6I8V2gEJXZJ7PizUQMHYqPTivAgMRLy2vxcr1EAnS8kmHCeYs4vxWuxxdo1tdaA4Ux8vU4esAf-OY5mPF9979BrcJU8fVcqi8pA9Te1gVAmJywILPH4pDGaeJ2JiHN6Ao74diPYrTZdiyOsc4yjZopaObIXYEshTtHqfLnazMG6VR4kwPQqhdAgeaq5tez2MD6Ccly16JBAXuZZTX6H7EESsnWkA_P7I_y3VcxzNhKI8k41oi8txjT1a8EpcEqYGOGT2uS59J0nSVgDmoT8FnkIw4kUzFT-LdeeVo5eEnhKoj2xyZE2QA7F3s3fxpyy_3PW5IvbuOMfh6uhvNeSPkBH2SqfaTEFV7-UTczcRaOJ9sPCg35wtnrTyz-6TwWWLCBDJwbqM8_k_uL1k7zYNDtA0Mrbg5XWDPaiFQ6bg-SQADuQzPqydYCfyCNCQrIm5D5ZYq-c5qjBhvBEIQlgG-LhKmHb84caLNPFj79rGZwOKKLcuD97NOZvvb4LxgEeyZYwjJUirZ9WuywCUkjchNjdM945s93jAdt4gZcxm7NvIwjRtDtf4ENjKsHnUwON_wP5QmM9mtfIX_Th3NzZCh4X3xGaDj3m1gAc1I_DJuIAAaE4ytVIvw-04_OLYTxX6fZFABC7-5nELYxGx42E4aCQLAyEVRX9Ezo7XdGVy_SQf6wSNqlfrAMLyMDJa7yPODL1FIV-QTlv6ccnhE3-Ospg25CUaI-fQpBShrL8VveGgQEbNEk1Ywg73EzO4TOZYdrK5wfn9hBXf2mR16vAK0IRuwoBiNoX4WnjtYlAR0zUsvq8vVxZNlJwdewvvyL",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": " query suggestions ($rpp: Float!){\n      suggestions (rpp: $rpp) {\n        peopleSuggestion (rpp: $rpp)\n        {\n          companiesCount,\n          maxResults,\n          numUniqueCompanies,\n          totalResults,\n          data{\n            buyingCommittee,\n            certifications{\n              certificationName,\n              organizationName,\n            }\n            certified,\n            companyAddress{\n              City,\n              CountryCode,\n              State,\n              Street,\n              Zip\n            },\n            companyDescription,\n            companyDomain,\n            companyEmployeeCountRange,\n            companyEmployees,\n            companyID,\n            companyLogo,\n            companyName,\n            companyPhone,\n            companyRevenue,\n            companyRevenueIn000s,\n            companyRevenueRange,\n            companyTicker,\n            companyType,\n            confidenceScore,\n            creationDate,\n            doziIndustry{\n              displayName,\n              isPrimary,\n              name,\n              score\n            },\n            email,\n            firstName,\n            isEU,\n            isMasked,\n            isPast,\n            isTagged,\n            jobTitle,\n            lastMentioned,\n            lastName,\n            lastUpdatedDate,\n            location{\n              City,\n              CountryCode,\n              State,\n              Street,\n              Zip\n            },\n            middleInitial,\n            mobilePhoneBlocked,\n            name,\n            noticeProvidedInfo{\n              emailNoticeProvidedDate,\n              hasBeenNotified\n            },\n            orgUniversalTagged {\n              tagName,\n              value\n            },\n            personID,\n            phone,\n            positionStartDate,\n            profileImageURL,\n            score,\n            socialUrls{\n              socialMedia{\n                socialNetworkType,\n                socialNetworkUrl\n              }\n            },\n            subscribed,\n            title,\n            topLevelIndustry,\n            universalTagged{\n              tagName,\n              value\n            },\n            website\n          }\n        }\n        companySuggestion (rpp: $rpp)\n        {\n          companiesCount,\n          data{\n            certificationDate,\n            certified,\n            companyDescription,\n            companyDomain,\n            companyID,\n            companyIds,\n            companyLogo,\n            companyName,\n            companyPhone,\n            companyRevenueIn000s,\n            companyType,\n            doziIndustry{\n              displayName,\n              isPrimary,\n              score\n            },\n            employees,\n            employeesRange,\n            funding{\n              amountIn000s,\n              date,\n              round,\n              investors{\n                investorName,\n                investorDomain\n              }\n            },\n            isDefunct,\n            isMasked,\n            isTagged,\n            location{\n              City,\n              CountryCode,\n              State,\n              Street,\n              Zip\n            },\n            orgUniversalTagged {\n              tagName,\n              value\n            },\n            revenue,\n            revenueRange,\n            subscribed,\n            topLevelIndustry,\n            totalFundingAmountIn000s,\n            universalTagged{\n              tagName,\n              value\n            },\n            website\n          },\n          maxResults,\n          totalResults\n        }\n      }\n    }",
+								"variables": "{\n   \"rpp\": 25\n}"
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/profiles/graphql/peopleSuggestion",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"profiles",
+								"graphql",
+								"peopleSuggestion"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Company Suggestion",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "session-token",
+								"value": " r:b5fb3833669604520777d5407aac8b2b",
+								"type": "text"
+							},
+							{
+								"key": "user",
+								"value": " O1m6HWzgNOTDVgIehJSR",
+								"type": "text"
+							},
+							{
+								"key": "user-agent",
+								"value": " Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-origin",
+								"value": " rum",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-parent-id",
+								"value": " 5845963256964738418",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-sampled",
+								"value": " 1",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-sampling-priority",
+								"value": " 1",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-trace-id",
+								"value": " 2723352432996847281",
+								"type": "text"
+							},
+							{
+								"key": "x-sourceid",
+								"value": " GrowUI",
+								"type": "text"
+							},
+							{
+								"key": "x-ziaccesstoken",
+								"value": " eyJraWQiOiI1di1ESGZzNTl2dDdyRFlHYXVhMW5fMjFFejI5Tm1vRktONGE4ejFMU25rIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULlBSWHN6SXVqNTljVzMtc1NVYXYtSjdkZE4tMUFNT01kRUN0UF9BdDRjVWMiLCJpc3MiOiJodHRwczovL3pvb21pbmZvLWNpYW0tc3RhZ2luZy5va3RhcHJldmlldy5jb20vb2F1dGgyL2RlZmF1bHQiLCJhdWQiOiJhcGk6Ly9kZWZhdWx0IiwiaWF0IjoxNjM1Nzc0NjY3LCJleHAiOjE2MzU4MTc4NjcsImNpZCI6IjBvYTEzaWxxOGxNZVlTQ0VpMWQ3IiwidWlkIjoiMDB1MWN2aXRmY3MxdmNjZFMxZDciLCJzY3AiOlsib3BlbmlkIl0sInppVXNlcm5hbWUiOiJ2aXRhbGkubXV6aGFpbG9Aem9vbWluZm8uY29tIiwic3ViIjoidml0YWxpLm11emhhaWxvQHpvb21pbmZvLmNvbSIsInppR3JvdXBJZCI6MCwiemlVc2VySWQiOjIwMDM0Nzk1LCJ6aVRlbmFudElkIjoxMDAwMDAwMCwiemlQbGF0Zm9ybXMiOlsiUkVBQ0hPVVQiLCJTRk5BIiwiRE9aSSIsIk1PQklMRSJdfQ.DuJpOpx_Ilux_mJPFhg33JXgnCxIwN954261ivdpA1k4mT2CkA377G7hsxIF39rsY-DsR0YFNpFkklEAeQ0H-1cBTvkKmybjvYHHJ5eC4MUL7FppKfukB0HnRWH4m5qMteIZQzVoec0O1PCwgwLuzFwR5RDRAdnIdyMlRp6tz3IHQk0eHVXso99luRNf7MKwWo7k6GRDqWu_n7RDQjpq0m3vJxWlSX8IohKQGo_a8W0xjlb2NzFDQGDLkBXz-0sg8VyZJfgkQ6Vs6D57DjM2iMzWr-UEfpAm9nl7Uupx_hCt_WojXK_4JYdvG8OGl5v9mpBXj_4CcdD9yfZDZaOkZg",
+								"type": "text"
+							},
+							{
+								"key": "x-ziid",
+								"value": " s9GANqSfqHW02bVzA9qK3-V-KJ1zYe7F-6lnxNJC2Xod6e8T6tH61FXwh8yOs83x6AO56D7w3MCx7k8Lh_NxOw",
+								"type": "text"
+							},
+							{
+								"key": "x-zisession",
+								"value": "I8iwZxFIqjixuuFd9FwU866KmZySgub5ToIVMrAbNhvXwlqdbkw2YFXwh8yOs83xCC9bcA5ANUd7X_htrEvheEwpx18a8Oe4gelxg_8YZGdxKzvAVB1bliU3KqFVSJQJbaTzJFFpGU9b3IqKSWlKVojM42zNZiHYVSClwXzJhtCd7cr0Y4cNHlD51jsiM-rLg-qI6Yc8jjLw1VkDH6OGO1XRXSK386u98Uremzs0Pz6rvXisyJmaebC3hZTD0e86ekI6gDwpo6PhWORgD6Zdo4EnjBhrPL3WPV-LJsPWwgGPlLZga8NeDRH2pi9bKQPUwPDZd3TfLMKnqqv0KbU1RosYe2CxwWCns5UEhblIo0JtQvyx4A8zdDuX7BaaHrZZ02VaxEL63_ChUtKASY1eilHZoSEHiRKVth7-zi_upxhm76LroIxeJxjQp2mvOAO4YeYALJhoNY7e_S5_437heVTrlv-fkKyOSblmbPBNqNd0HqguPUztMtavhEQoeB98yy_KRX8mtuVSiGq5cuMudXqcJnKAPs6CPbWyaFU1uSW-FfGjcCNagNBGwka8xXMJLhBxlxpHyfJKmcyL5gcIGLdvWjCAYZBBKqHrxFEOtT5mn0dbLm3pP-L6h4V6ykx0WySTM7ZYxYIu_eNt-JZMJYDON8VuSRaBFvrcz8aHDjxuoPYzWLPnLm1T4EkzwN33zv10Ozzy817mOxkKnyB9iyivJYcQNN0dUSgQmfaCdJKKExWEuof5RKW10LfrqIpcNJGm0rY6Tqo319N33hHL47_D_jitk2ASTNQLDO-CBRt4LNDRNXj5FENYxbY9ys2pepXKofRuoIESHpaAXs-7aVx8-Oe0lEv1rH6I8V2gEJXZJ7PizUQMHYqPTivAgMRLy2vxcr1EAnS8kmHCeYs4vxWuxxdo1tdaA4Ux8vU4esAf-OY5mPF9979BrcJU8fVcqi8pA9Te1gVAmJywILPH4pDGaeJ2JiHN6Ao74diPYrTZdiyOsc4yjZopaObIXYEshTtHqfLnazMG6VR4kwPQqhdAgeaq5tez2MD6Ccly16JBAXuZZTX6H7EESsnWkA_P7I_y3VcxzNhKI8k41oi8txjT1a8EpcEqYGOGT2uS59J0nSVgDmoT8FnkIw4kUzFT-LdeeVo5eEnhKoj2xyZE2QA7F3s3fxpyy_3PW5IvbuOMfh6uhvNeSPkBH2SqfaTEFV7-UTczcRaOJ9sPCg35wtnrTyz-6TwWWLCBDJwbqM8_k_uL1k7zYNDtA0Mrbg5XWDPaiFQ6bg-SQADuQzPqydYCfyCNCQrIm5D5ZYq-c5qjBhvBEIQlgG-LhKmHb84caLNPFj79rGZwOKKLcuD97NOZvvb4LxgEeyZYwjJUirZ9WuywCUkjchNjdM945s93jAdt4gZcxm7NvIwjRtDtf4ENjKsHnUwON_wP5QmM9mtfIX_Th3NzZCh4X3xGaDj3m1gAc1I_DJuIAAaE4ytVIvw-04_OLYTxX6fZFABC7-5nELYxGx42E4aCQLAyEVRX9Ezo7XdGVy_SQf6wSNqlfrAMLyMDJa7yPODL1FIV-QTlv6ccnhE3-Ospg25CUaI-fQpBShrL8VveGgQEbNEk1Ywg73EzO4TOZYdrK5wfn9hBXf2mR16vAK0IRuwoBiNoX4WnjtYlAR0zUsvq8vVxZNlJwdewvvyL",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": " query suggestions ($rpp: Float!){\n      suggestions (rpp: $rpp) {\n        companySuggestion (rpp: $rpp)\n          {\n           companiesCount,\n           data{\n               certificationDate,\n               certified,\n               companyDescription,\n               companyDomain,\n               companyID,\n               companyIds,\n               companyLogo,\n               companyName,\n               companyPhone,\n               companyRevenueIn000s,\n               companyType,\n               doziIndustry{\n                   displayName,                   \n                   isPrimary,\n                   score\n               },\n               employees,\n               employeesRange,\n               funding{\n                   amountIn000s,\n                   date,\n                   round,\n                   investors{\n                       investorName,\n                       investorDomain\n                   }\n               },\n               isDefunct,\n               isMasked,\n               isTagged,\n               location{\n                   City,\n                   CountryCode,\n                   State,\n                   Street,\n                   Zip\n               },\n               orgUniversalTagged {\n                   tagName,\n                   value\n               },\n               revenue,\n               revenueRange,\n               subscribed,\n               topLevelIndustry,\n               totalFundingAmountIn000s,\n               universalTagged{\n                   tagName,\n                   value\n               },\n               website\n           },\n           maxResults,\n           totalResults\n         }\n        }\n      }",
+								"variables": "{\n   \"rpp\": 25\n}"
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/profiles/graphql/companySuggestion",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"profiles",
+								"graphql",
+								"companySuggestion"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Org Charts",
+			"item": [
+				{
+					"name": "Org Charts",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "session-token",
+								"value": " r:b5fb3833669604520777d5407aac8b2b",
+								"type": "text"
+							},
+							{
+								"key": "user",
+								"value": " O1m6HWzgNOTDVgIehJSR",
+								"type": "text"
+							},
+							{
+								"key": "user-agent",
+								"value": " Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-origin",
+								"value": " rum",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-parent-id",
+								"value": " 5845963256964738418",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-sampled",
+								"value": " 1",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-sampling-priority",
+								"value": " 1",
+								"type": "text"
+							},
+							{
+								"key": "x-datadog-trace-id",
+								"value": " 2723352432996847281",
+								"type": "text"
+							},
+							{
+								"key": "x-sourceid",
+								"value": " GrowUI",
+								"type": "text"
+							},
+							{
+								"key": "x-ziaccesstoken",
+								"value": "eyJraWQiOiIwTFFMVmNZOFlzZFhtNExpX0pVWVFfUUNfX0Q1Sl9lajB6RXJBcmg2Rkk0IiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULjRKMnJGV1lHaWVLVEhGOUpEVVpHeHFGdlFKMGhjNlRDQlNna2NPZWt0YUEiLCJpc3MiOiJodHRwczovL3pvb21pbmZvLWNpYW0tc3RhZ2luZy5va3RhcHJldmlldy5jb20vb2F1dGgyL2RlZmF1bHQiLCJhdWQiOiJhcGk6Ly9kZWZhdWx0IiwiaWF0IjoxNjQ2ODk3Mjg3LCJleHAiOjE2NDY5NTEyODcsImNpZCI6IjBvYTIyNGtvendnWlRwSkNNMWQ3IiwidWlkIjoiMDB1Mmh6NGZ6a1Vub0VtY3MxZDciLCJzY3AiOlsiZW1haWwiLCJwcm9maWxlIiwib3BlbmlkIl0sImF1dGhfdGltZSI6MTY0Njg5NzI4NiwiemlVc2VybmFtZSI6InZpamF5YWt1bWFyLnZlbGxhaXNhbXlAem9vbWluZm8uY29tIiwic3ViIjoidmlqYXlha3VtYXIudmVsbGFpc2FteUB6b29taW5mby5jb20iLCJmaXJzdE5hbWUiOiJWaWpheWFrdW1hciIsImxhc3ROYW1lIjoiVmVsbGFpc2FteSIsInppU2Vzc2lvblR5cGUiOi0zLCJ6aUdyb3VwSWQiOjAsInppVXNlcklkIjoyMDA0MDIxMiwiemlUZW5hbnRJZCI6MTAwMTIyODEsInppTW9uZ29Vc2VySWQiOiIyMDA0MDIxMiIsInppUGxhdGZvcm1zIjpbIkRPWkkiXX0.kFLcROr5guB9CtxN6YHXoQ2Q9XLuZv6hVPt-W_E7gjt6AVzVqiragS0gpZvPL8eQQ3JQpOOICVNPxrptDoSkY9idpZjPLMY2DwavljY0eQwwUNc0fYDpCtCa_eNS3TldagjdtZoacqWZtx7VYXTVr_C4BXeaXq7xJrppYu5TSzpGpiY7aBU5-Ejlrma1XtmG9h5VsSlKZgFH-m8UMjJhsYu0YyYoiFyiDf3YuIsy9OscAPTM98PkeShGd0AaxrH3xR_fNzBeX5ImOnthLh05exF6bpbYiYeVtSeXuPw6l0cyoMWEcvI6z2pXj3dIgy2kz3Qs7SEcUHu1_CEvcw-8pw",
+								"type": "text"
+							},
+							{
+								"key": "x-ziid",
+								"value": "M-I8rz4E_dvIoI_LwmL7SE4nKNbZBQmktS29H54VujpOn5WWqdVWhp7sWmGllgKBuTfKaRm5r25lmfIhCHSO_w",
+								"type": "text"
+							},
+							{
+								"key": "x-zisession",
+								"value": "kS7AVLYEBAMkwxEuf30DSjQ8uz5ZfELfk97LymYvPgc6gfYfXojuPlXwh8yOs83xH5AXg97lAAw7O8ynTsfg6kwpx18a8Oe4gelxg_8YZGdxKzvAVB1bliU3KqFVSJQJbaTzJFFpGU9b3IqKSWlKVojM42zNZiHYVSClwXzJhtCd7cr0Y4cNHlD51jsiM-rLg-qI6Yc8jjLw1VkDH6OGO1XRXSK386u98Uremzs0Pz6rvXisyJmaebC3hZTD0e86ekI6gDwpo6PhWORgD6Zdo4EnjBhrPL3WPV-LJsPWwgGPlLZga8NeDRH2pi9bKQPUwPDZd3TfLMKnqqv0KbU1RosYe2CxwWCns5UEhblIo0JtQvyx4A8zdDuX7BaaHrZZ02VaxEL63_ChUtKASY1eilHZoSEHiRKVth7-zi_upxhm76LroIxeJxjQp2mvOAO4YeYALJhoNY7e_S5_437heVTrlv-fkKyOSblmbPBNqNd0HqguPUztMtavhEQoeB98yy_KRX8mtuVSiGq5cuMudXqcJnKAPs6CPbWyaFU1uSW-FfGjcCNagNBGwka8xXMJLhBxlxpHyfJKmcyL5gcIGLdvWjCAYZBBKqHrxFEOtT5mn0dbLm3pP-L6h4V6ykx0WySTM7ZYxYIu_eNt-JZMJYDON8VuSRaBFvrcz8aHDjxuoPYzWLPnLm1T4EkzwN33zv10Ozzy817mOxkKnyB9iyivJYcQNN0dUSgQmfaCdJKKExWEuof5RKW10LfrqIpcNJGm0rY6Tqo319N33hHL47_D_jitk2ASTNQLDO-CBRt4LNDRNXj5FENYxbY9ys2pepXKofRuoIESHpaAXs-7aVx8-Oe0lEv1rH6I8V2gEJXZJ7PizUQMHYqPTivAgMRLy2vxcr1EAnS8kmHCeYs4vxWuxxdo1tdaA4Ux8vU4esAf-OY5mPF9979BrcJU8fVcqi8pA9Te1gVAmJywILPH4pDGaeJ2JiHN6Ao74diPYrTZdiyOsc4yjZopaObIXYEshTtHqfLnazMG6VR4kwPQqhdAgeaq5tez2MD6Ccly16JBAXuZZTX6H7EESsnWkA_P7I_y3VcxzNhKI8k41oi8txjT1a8EpcEqYGOGT2uS59J0nSVgDmoT8FnkIw4kUzFT-LdeeVo5eEnhKoj2xyZE2QA7F3s3fxpyy_3PW5IvbuOMfh6uhvNeSPkBH2SqfaTEFV7-UTczcRaOJ9sPCg35wtnrTyz-6TwWWLCBDJwbqM8_k_uL1k7zYNDtA0Mrbg5XWDPaiFQ6bg-SQADuQzPqydYCfyCNCQrIm5D5ZYq-c5qjBhvBEIQlgG-LhKmHb84caLNPFj79rGZwOKKLcuD97NOZvvb4LxgEeyZYwjJUirZ9WuywCUkjchNjdM945s93jAdt4gZcxm5Qu6aZvqBLBzf8D-UJjPZrXyF_04dzc2QoeF98Rmg495tYAHNSPwybiAAGhOMrVSL8PtOPzi2E8V-n2RQAQu_uZxC2MRseNhOGgkCwMhFUV_RM6O13Rlcv0kH-sEjapX6wDC8jAyWu8jzgy9RSFfkE5b-nHJ4RN_jrKYNuQlGiPn0KQUoay_Fb3hoEBGzRJNWMIO9xMzuEzmWHayucH5_YQV39pkderwCtCEbsKAYjaF-Fp47WJQEdM1LL6vL1cWTZScHXsL78iw",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "query orgchartsSearch($companyId: String!) {\n  orgchartsSearch(\n    companyId: $companyId,\n  ) \n  {\n        companyId,\n        departments,\n        highestTier,\n        orgChartSwimLanes { \n        swimLaneName,\n        data{\n            departments,\n            jobFunctionName,\n            jobFunctions,\n            maxResults,\n            orgChartSwimLane,\n            totalResults\n            data{\n                businessEmailAddress,\n                companyHQPhone,\n                confidenceScore,\n                directPhone,\n                directPhoneIsDoNotCall,\n                imageUrl,\n                indentationPosition,\n                mobilePhoneIsDoNotCall,\n                name,\n                isMasked,\n                isTagged,\n                personId,\n                orgChartTier,\n                personalEmailAddress,\n                subOrgChartTier,\n                title,\n           \n                socialUrls{\n                    socialMedia{\n                     socialNetworkType,\n                     socialNetworkUrl\n                    }\n                },\n              \n                jobFunctions{\n                    department,\n                    departmentId,\n                    departmentPriority,\n                    jobFunctionId,\n                    name,\n                    orgChartSwimLane,\n                    orgChartSwimLanePriority,\n                    rank\n                },\n                solrPseudoOutputFields{\n                    exported,\n                    imported,\n                    listed{\n                        listName,\n                        value\n                    },\n                    orgImported,\n                    orgOriginSF,\n                    owned,\n                    recentExported,\n                    tagged,\n                    viewed\n                }\n                }\n        }\n        },\n        topLevelContacts{\n          businessEmailAddress,\n                companyHQPhone,\n                confidenceScore,\n                directPhone,\n                directPhoneIsDoNotCall,\n                imageUrl,\n                indentationPosition,\n                isMasked,\n                isTagged,\n                personId,\n                orgChartTier,\n                personalEmailAddress,\n                subOrgChartTier,\n                name,\n                title,\n                socialUrls{\n                    socialMedia{\n                     socialNetworkType,\n                     socialNetworkUrl\n                    }\n                },\n              \n                jobFunctions{\n                    department,\n                    departmentId,\n                    departmentPriority,\n                    jobFunctionId,\n                    name,\n                    orgChartSwimLane,\n                    orgChartSwimLanePriority,\n                    rank\n                },\n                solrPseudoOutputFields{\n                    exported,\n                    imported,\n                    listed{\n                        listName,\n                        value\n                    },\n                    orgImported,\n                    orgOriginSF,\n                    owned,\n                    recentExported,\n                    tagged,\n                    viewed\n                }\n        }\n          \n  }\n      \n}\n",
+								"variables": "{\n\"companyId\": \"344589814\", \n\"isExecutiveContactOrgChart\": true,\n\"isTierLevelOne\": true\n}"
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/profiles/graphql/orgchartsSearch",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"profiles",
+								"graphql",
+								"orgchartsSearch"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
